@@ -1,0 +1,2058 @@
+Script started on 2022-02-03 10:16:07+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~[00m$ ssh-add ~/.ssh/id_rsa[1Peval $(ssh-agent -s)[6Pcat id_rsa.publs[Kssh-keygenls[Kcd .sshls[C[C[C[C[C[1Pssh -v-keygenls[Kssh-keygen[4P -v-keygen -t rsa .b 2048
+Too many arguments.
+usage: ssh-keygen [-q] [-b bits] [-C comment] [-f output_keyfile] [-m format]
+                  [-t dsa | ecdsa | ecdsa-sk | ed25519 | ed25519-sk | rsa]
+                  [-N new_passphrase] [-O option] [-w provider]
+       ssh-keygen -p [-f keyfile] [-m format] [-N new_passphrase]
+                   [-P old_passphrase]
+       ssh-keygen -i [-f input_keyfile] [-m key_format]
+       ssh-keygen -e [-f input_keyfile] [-m key_format]
+       ssh-keygen -y [-f input_keyfile]
+       ssh-keygen -c [-C comment] [-f keyfile] [-P passphrase]
+       ssh-keygen -l [-v] [-E fingerprint_hash] [-f input_keyfile]
+       ssh-keygen -B [-f input_keyfile]
+       ssh-keygen -D pkcs11
+       ssh-keygen -F hostname [-lv] [-f known_hosts_file]
+       ssh-keygen -H [-f known_hosts_file]
+       ssh-keygen -K [-w provider]
+       ssh-keygen -R hostname [-f known_hosts_file]
+       ssh-keygen -r hostname [-g] [-f input_keyfile]
+       ssh-keygen -M generate [-O option] output_file
+       ssh-keygen -M screen [-f input_file] [-O option] output_file
+       ssh-keygen -I certificate_identity -s ca_key [-hU] [-D pkcs11_provider]
+                  [-n principals] [-O option] [-V validity_interval]
+                  [-z serial_number] file ...
+       ssh-keygen -L [-f input_keyfile]
+       ssh-keygen -A [-f prefix_path]
+       ssh-keygen -k -f krl_file [-u] [-s ca_public] [-z version_number]
+                  file ...
+       ssh-keygen -Q -f krl_file file ...
+       ssh-keygen -Y find-principals -s signature_file -f allowed_signers_file
+       ssh-keygen -Y check-novalidate -n namespace -s signature_file
+       ssh-keygen -Y sign -f key_file -n namespace file ...
+       ssh-keygen -Y verify -f allowed_signers_file -I signer_identity
+       		-n namespace -s signature_file [-r revocation_file]
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~[00m$ ssh-keygen -t rsa .b 2048[4Padd ~/.ssh/id_rsa[1Peval $(ssh-agent -s)[6Pcat id_rsa.publs[Kssh-keygenls[Kcd .sshls[C[C[C[C[C[1Pssh -v-keygen[K[K[K[K[K[K[K[K[K[Kls .sh[Ksh
+id_rsa  id_rsa.pub
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~[00m$ cd .ssd
+bash: cd: .ssd: No existe el archivo o el directorio
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~[00m$ cd .ssdls .sshssh-keygen -t rsa .b 2048
+Too many arguments.
+usage: ssh-keygen [-q] [-b bits] [-C comment] [-f output_keyfile] [-m format]
+                  [-t dsa | ecdsa | ecdsa-sk | ed25519 | ed25519-sk | rsa]
+                  [-N new_passphrase] [-O option] [-w provider]
+       ssh-keygen -p [-f keyfile] [-m format] [-N new_passphrase]
+                   [-P old_passphrase]
+       ssh-keygen -i [-f input_keyfile] [-m key_format]
+       ssh-keygen -e [-f input_keyfile] [-m key_format]
+       ssh-keygen -y [-f input_keyfile]
+       ssh-keygen -c [-C comment] [-f keyfile] [-P passphrase]
+       ssh-keygen -l [-v] [-E fingerprint_hash] [-f input_keyfile]
+       ssh-keygen -B [-f input_keyfile]
+       ssh-keygen -D pkcs11
+       ssh-keygen -F hostname [-lv] [-f known_hosts_file]
+       ssh-keygen -H [-f known_hosts_file]
+       ssh-keygen -K [-w provider]
+       ssh-keygen -R hostname [-f known_hosts_file]
+       ssh-keygen -r hostname [-g] [-f input_keyfile]
+       ssh-keygen -M generate [-O option] output_file
+       ssh-keygen -M screen [-f input_file] [-O option] output_file
+       ssh-keygen -I certificate_identity -s ca_key [-hU] [-D pkcs11_provider]
+                  [-n principals] [-O option] [-V validity_interval]
+                  [-z serial_number] file ...
+       ssh-keygen -L [-f input_keyfile]
+       ssh-keygen -A [-f prefix_path]
+       ssh-keygen -k -f krl_file [-u] [-s ca_public] [-z version_number]
+                  file ...
+       ssh-keygen -Q -f krl_file file ...
+       ssh-keygen -Y find-principals -s signature_file -f allowed_signers_file
+       ssh-keygen -Y check-novalidate -n namespace -s signature_file
+       ssh-keygen -Y sign -f key_file -n namespace file ...
+       ssh-keygen -Y verify -f allowed_signers_file -I signer_identity
+       		-n namespace -s signature_file [-r revocation_file]
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~[00m$ ls
+[0m[01;34m'5 SECUENCIAS'[0m                                   introduccion_R.R
+[01;34m'6 TABLAS Y HUFFMAN'[0m                             listaInversa.pl
+ abb.cpp                                         madrecalva.txt
+ adios                                           [01;34mmatlabinstall[0m
+ adios2                                          [01;31mmatlab_R2021b_glnxa64.zip[0m
+ adios3                                          matrices.hs
+ adios4                                          mediana.hs
+ adios5                                          medianda.hs
+ adios6                                         [01;35m'MEST 31-01-2022.mkv'[0m
+ adios7                                          min.hs
+ agrupa.hs                                       monticulos.cpp
+ [01;32ma.out[0m                                           [01;34mMúsica[0m
+ [01;34mAPUNTES[0m                                         nb.hs
+ arboleshuffman.cpp                              negacion.pl
+ arbol_frecuencias.cpp                           parcialsol2.hs
+ arbol.hs                                        parcialsol.hs
+ auxiliar.hs                                     pascal2.hs
+ [01;34mAYUDAP1[0m                                         pascal.hs
+ caminochungo.pl                                 pertenece.hs
+ camino.pl                                       [01;34mPlantillas[0m
+ capicua.hs                                      prod.hs
+'certificado de vacunacion europeo juanda.pdf'   product.hs
+ composicion.hs                                  pruebasudoku
+ cp.hs                                           prueba.txt
+ cuadrado.hs                                     [01;34mPúblico[0m
+ [01;34mDescargas[0m                                       qsort.cpp
+ diferencia.hs                                   qsortpivote.cpp
+ divisores.hs                                    [01;34mR[0m
+ doblord.hs                                      rango.hs
+ [01;34mDocumentos[0m                                      rota.hs
+ ej10.hs                                         [01;34mRtrabajos[0m
+ ej17.hs                                         [01;32msalida[0m
+ ej1.hs                                          saludo.hs
+ ej20.hs                                         secuencias.cpp
+ ej3.hs                                          secuenciasprofe.cpp
+[01;34m'ENTREGA 4'[0m                                      segmento.hs
+ [01;34mEscritorio[0m                                      separar.hs
+ esLista.pl                                      sesion.txt
+ esPositiva.hs                                   siguiente.hs
+ esRepetitiva.hs                                 [01;34msnap[0m
+ esVariada.hs                                    soluciondiabolica
+ fac.hs                                         'Sudokus (1)e.hs'
+ finales.hs                                     'Sudokus(1).hs'
+ generador                                       [01;31mteams_1.4.00.26453_amd64.deb[0m
+'git comandos'                                   terna.hs
+ helloworld.hs                                   [01;34mTFG[0m
+ hoja3.pl                                        trademarks.txt
+ hola                                           [01;35m'Tutoria antes del examen.mkv'[0m
+ [01;34mImágenes[0m                                        vector_archivo.cpp
+ inc.hs                                          VersionInfo.xml
+ indicacionesarbolfrecuencias                    [01;34mVídeos[0m
+ interior.hs
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~[00m$ cd .ssh
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/.ssh[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/.ssh[00m$ ls
+id_rsa  id_rsa.pub
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/.ssh[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/.ssh[00m$ cp id_rsa.pub ~\[K/home/juan/descargas[1PescargasDescargas
+cp: no se puede crear el fichero regular '/home/juan/home/juan/Descargas': No existe el archivo o el directorio
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/.ssh[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/.ssh[00m$ cp id_rsa.pub ~/home/juan/Descargas[C[C[C[C[1P/Descargas[1P/Descargas[1P/Descargas[1P/Descargas[1PDescargas[1P/Descargas[1P/Descargas[1P/Descargas[1P/Descargas[1PDescargas
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/.ssh[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/.ssh[00m$ git clone git@github.com:Juanda127/GitMultiprocesing.git[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kstatus
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/.ssh[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/.ssh[00m$ git statuscp id_rsa.pub ~/Descargashome/juan/Descargas[10PDescargas[15Pgit status[Kgit status[K[K[K[K[K[Kclone git@github.com:Juanda127/GitMultiprocesing.git
+Clonando en 'GitMultiprocesing'...
+The authenticity of host 'github.com (140.82.121.3)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,140.82.121.3' (ECDSA) to the list of known hosts.
+warning: Pareces haber clonado un repositorio sin contenido.
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/.ssh[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/.ssh[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/.ssh[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/.ssh[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/.ssh[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/.ssh[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/.ssh[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/.ssh[00m$ cd..
+cd..: orden no encontrada
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/.ssh[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/.ssh[00m$ cd.. ..
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~[00m$ mkdir practica1
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~[00m$ cd practica1
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git commit -m [K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit commit -m "inicio"
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git remote add origin git@github.com:Juanda127/GitMultiprocesing.git
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git col[K[Klone git@github.com:Juanda127/GitMultiprocesing.git
+Clonando en 'GitMultiprocesing'...
+Warning: Permanently added the ECDSA host key for IP address '140.82.121.4' to the list of known hosts.
+remote: Enumerating objects: 5, done.[K
+remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
+remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
+Recibiendo objetos:  20% (1/5)Recibiendo objetos:  40% (2/5)Recibiendo objetos:  60% (3/5)remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Recibiendo objetos:  80% (4/5)Recibiendo objetos: 100% (5/5)Recibiendo objetos: 100% (5/5), 13.46 KiB | 6.73 MiB/s, listo.
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ cd GitMultiprocesing
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1/GitMultiprocesing[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1/GitMultiprocesing[00m$ git clone /srv/git/prpa
+fatal: repositorio '/srv/git/prpa' no existe
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1/GitMultiprocesing[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1/GitMultiprocesing[00m$ cd ..
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ ls
+0_procesos.py  1_procesos.py  2_procesos.py  3_procesos.py  4_procesos.py  [0m[01;34mGitMultiprocesing[0m
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ python3 0_procesos.py
+fin
+hola 0
+hola 0
+hola 1
+hola 1
+hola 2
+hola 2
+hola 3
+hola 3
+hola 4
+hola 4
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ python3 0_procesos.py[1P_procesos.py1_procesos.py
+hola soy ana 0 vuelta 0
+hola soy ana 1 vuelta 0
+hola soy ana 2 vuelta 0
+hola soy ana 3 vuelta 0
+hola soy ana 4 vuelta 0
+hola soy ana 5 vuelta 0
+hola soy ana 6 vuelta 0
+hola soy ana 7 vuelta 0
+hola soy ana 8 vuelta 0
+fin
+hola soy ana 9 vuelta 0
+adios
+hola soy ana 7 vuelta 1
+hola soy ana 4 vuelta 1
+hola soy ana 7 vuelta 2
+hola soy ana 6 vuelta 1
+hola soy ana 1 vuelta 1
+hola soy ana 0 vuelta 1
+hola soy ana 6 vuelta 2
+hola soy ana 2 vuelta 1
+hola soy ana 0 vuelta 2
+hola soy ana 1 vuelta 2
+hola soy ana 5 vuelta 1
+hola soy ana 8 vuelta 1
+hola soy ana 2 vuelta 2
+hola soy ana 3 vuelta 1
+hola soy ana 9 vuelta 1
+hola soy ana 4 vuelta 2
+hola soy ana 3 vuelta 2
+hola soy ana 5 vuelta 2
+hola soy ana 8 vuelta 2
+hola soy ana 9 vuelta 2
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ python3 1_procesos.py0_procesos.py[1P_procesos.py2_procesos.py
+hola soy ana_0, 7420, True, vuelta 0
+hola soy ana_1, 7421, True, vuelta 0
+fin
+hola soy ana_2, 7422, True, vuelta 0
+adios
+hola soy ana_1, 7421, True, vuelta 1
+hola soy ana_0, 7420, True, vuelta 1
+hola soy ana_2, 7422, True, vuelta 1
+hola soy ana_1, 7421, True, vuelta 2
+hola soy ana_0, 7420, True, vuelta 2
+hola soy ana_0, 7420, True, vuelta 3
+hola soy ana_2, 7422, True, vuelta 2
+hola soy ana_0, 7420, True, vuelta 4
+hola soy ana_1, 7421, True, vuelta 3
+hola soy ana_2, 7422, True, vuelta 3
+hola soy ana_2, 7422, True, vuelta 4
+hola soy ana_1, 7421, True, vuelta 4
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ python3 2_procesos.py1_procesos.py[C[1P_procesos.py3_procesos.py
+  File "3_procesos.py", line 16
+    c = Value(’i’, 0)
+                ^
+SyntaxError: invalid character in identifier
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ python3 3_procesos.py
+Valor inicial del contador 0
+hola soy 9153, vuelta: 0, contador: 0
+hola soy 9154, vuelta: 0, contador: 0
+hola soy 9155, vuelta: 0, contador: 0
+hola soy 9156, vuelta: 0, contador: 0
+hola soy 9157, vuelta: 0, contador: 0
+hola soy 9158, vuelta: 0, contador: 0
+hola soy 9159, vuelta: 0, contador: 0
+hola soy 9160, vuelta: 0, contador: 0
+hola soy 9153, vuelta: 1, contador: 1
+hola soy 9154, vuelta: 1, contador: 1
+hola soy 9155, vuelta: 1, contador: 1
+hola soy 9156, vuelta: 1, contador: 1
+hola soy 9157, vuelta: 1, contador: 1
+hola soy 9158, vuelta: 1, contador: 1
+hola soy 9159, vuelta: 1, contador: 1
+hola soy 9160, vuelta: 1, contador: 1
+hola soy 9153, vuelta: 2, contador: 2
+hola soy 9154, vuelta: 2, contador: 2
+hola soy 9155, vuelta: 2, contador: 2
+hola soy 9156, vuelta: 2, contador: 2
+hola soy 9157, vuelta: 2, contador: 2
+hola soy 9158, vuelta: 2, contador: 2
+hola soy 9159, vuelta: 2, contador: 2
+hola soy 9160, vuelta: 2, contador: 2
+hola soy 9153, vuelta: 3, contador: 3
+hola soy 9154, vuelta: 3, contador: 3
+hola soy 9155, vuelta: 3, contador: 3
+hola soy 9156, vuelta: 3, contador: 3
+hola soy 9157, vuelta: 3, contador: 3
+hola soy 9158, vuelta: 3, contador: 3
+hola soy 9159, vuelta: 3, contador: 3
+hola soy 9160, vuelta: 3, contador: 3
+hola soy 9153, vuelta: 4, contador: 4
+hola soy 9154, vuelta: 4, contador: 4
+hola soy 9155, vuelta: 4, contador: 4
+hola soy 9156, vuelta: 4, contador: 4
+hola soy 9157, vuelta: 4, contador: 4
+hola soy 9158, vuelta: 4, contador: 4
+hola soy 9159, vuelta: 4, contador: 4
+hola soy 9160, vuelta: 4, contador: 4
+hola soy 9153, vuelta: 5, contador: 5
+hola soy 9154, vuelta: 5, contador: 5
+hola soy 9155, vuelta: 5, contador: 5
+hola soy 9156, vuelta: 5, contador: 5
+hola soy 9157, vuelta: 5, contador: 5
+hola soy 9158, vuelta: 5, contador: 5
+hola soy 9159, vuelta: 5, contador: 5
+hola soy 9160, vuelta: 5, contador: 5
+hola soy 9153, vuelta: 6, contador: 6
+hola soy 9155, vuelta: 6, contador: 6
+hola soy 9154, vuelta: 6, contador: 6
+hola soy 9156, vuelta: 6, contador: 6
+hola soy 9157, vuelta: 6, contador: 6
+hola soy 9158, vuelta: 6, contador: 6
+hola soy 9159, vuelta: 6, contador: 6
+hola soy 9160, vuelta: 6, contador: 6
+hola soy 9153, vuelta: 7, contador: 7
+hola soy 9154, vuelta: 7, contador: 7
+hola soy 9155, vuelta: 7, contador: 7
+hola soy 9156, vuelta: 7, contador: 7
+hola soy 9157, vuelta: 7, contador: 7
+hola soy 9158, vuelta: 7, contador: 7
+hola soy 9159, vuelta: 7, contador: 7
+hola soy 9160, vuelta: 7, contador: 7
+hola soy 9153, vuelta: 8, contador: 8
+hola soy 9155, vuelta: 8, contador: 8
+hola soy 9154, vuelta: 8, contador: 8
+hola soy 9156, vuelta: 8, contador: 8
+hola soy 9157, vuelta: 8, contador: 8
+hola soy 9159, vuelta: 8, contador: 8
+hola soy 9158, vuelta: 8, contador: 8
+hola soy 9160, vuelta: 8, contador: 8
+hola soy 9153, vuelta: 9, contador: 9
+hola soy 9156, vuelta: 9, contador: 9
+hola soy 9154, vuelta: 9, contador: 9
+hola soy 9155, vuelta: 9, contador: 9
+hola soy 9157, vuelta: 9, contador: 9
+hola soy 9159, vuelta: 9, contador: 9
+hola soy 9158, vuelta: 9, contador: 9
+hola soy 9160, vuelta: 9, contador: 9
+hola soy 9153, vuelta: 10, contador: 10
+hola soy 9156, vuelta: 10, contador: 10
+hola soy 9154, vuelta: 10, contador: 10
+hola soy 9157, vuelta: 10, contador: 10
+hola soy 9155, vuelta: 10, contador: 10
+hola soy 9159, vuelta: 10, contador: 10
+hola soy 9158, vuelta: 10, contador: 10
+hola soy 9160, vuelta: 10, contador: 10
+hola soy 9153, vuelta: 11, contador: 11
+hola soy 9156, vuelta: 11, contador: 11
+hola soy 9154, vuelta: 11, contador: 11
+hola soy 9157, vuelta: 11, contador: 11
+hola soy 9155, vuelta: 11, contador: 11
+hola soy 9159, vuelta: 11, contador: 11
+hola soy 9158, vuelta: 11, contador: 11
+hola soy 9160, vuelta: 11, contador: 11
+hola soy 9153, vuelta: 12, contador: 12
+hola soy 9156, vuelta: 12, contador: 12
+hola soy 9157, vuelta: 12, contador: 12
+hola soy 9154, vuelta: 12, contador: 12
+hola soy 9155, vuelta: 12, contador: 12
+hola soy 9159, vuelta: 12, contador: 12
+hola soy 9158, vuelta: 12, contador: 12
+hola soy 9160, vuelta: 12, contador: 12
+hola soy 9153, vuelta: 13, contador: 13
+hola soy 9156, vuelta: 13, contador: 13
+hola soy 9157, vuelta: 13, contador: 13
+hola soy 9154, vuelta: 13, contador: 13
+hola soy 9155, vuelta: 13, contador: 13
+hola soy 9159, vuelta: 13, contador: 13
+hola soy 9158, vuelta: 13, contador: 13
+hola soy 9160, vuelta: 13, contador: 13
+hola soy 9153, vuelta: 14, contador: 14
+hola soy 9156, vuelta: 14, contador: 14
+hola soy 9155, vuelta: 14, contador: 14
+hola soy 9157, vuelta: 14, contador: 14
+hola soy 9154, vuelta: 14, contador: 14
+hola soy 9159, vuelta: 14, contador: 14
+hola soy 9158, vuelta: 14, contador: 14
+hola soy 9160, vuelta: 14, contador: 14
+hola soy 9156, vuelta: 15, contador: 15
+hola soy 9153, vuelta: 15, contador: 15
+hola soy 9155, vuelta: 15, contador: 15
+hola soy 9157, vuelta: 15, contador: 15
+hola soy 9154, vuelta: 15, contador: 15
+hola soy 9159, vuelta: 15, contador: 15
+hola soy 9158, vuelta: 15, contador: 15
+hola soy 9160, vuelta: 15, contador: 15
+hola soy 9156, vuelta: 16, contador: 16
+hola soy 9153, vuelta: 16, contador: 16
+hola soy 9157, vuelta: 16, contador: 16
+hola soy 9154, vuelta: 16, contador: 16
+hola soy 9155, vuelta: 16, contador: 16
+hola soy 9159, vuelta: 16, contador: 16
+hola soy 9158, vuelta: 16, contador: 16
+hola soy 9160, vuelta: 16, contador: 16
+hola soy 9156, vuelta: 17, contador: 17
+hola soy 9159, vuelta: 17, contador: 17
+hola soy 9154, vuelta: 17, contador: 17
+hola soy 9155, vuelta: 17, contador: 17
+hola soy 9157, vuelta: 17, contador: 17
+hola soy 9153, vuelta: 17, contador: 17
+hola soy 9158, vuelta: 17, contador: 17
+hola soy 9160, vuelta: 17, contador: 17
+hola soy 9156, vuelta: 18, contador: 18
+hola soy 9159, vuelta: 18, contador: 18
+hola soy 9154, vuelta: 18, contador: 18
+hola soy 9157, vuelta: 18, contador: 18
+hola soy 9155, vuelta: 18, contador: 18
+hola soy 9153, vuelta: 18, contador: 18
+hola soy 9158, vuelta: 18, contador: 18
+hola soy 9160, vuelta: 18, contador: 18
+hola soy 9159, vuelta: 19, contador: 19
+hola soy 9156, vuelta: 19, contador: 19
+hola soy 9154, vuelta: 19, contador: 19
+hola soy 9157, vuelta: 19, contador: 19
+hola soy 9153, vuelta: 19, contador: 19
+hola soy 9155, vuelta: 19, contador: 19
+hola soy 9158, vuelta: 19, contador: 19
+hola soy 9160, vuelta: 19, contador: 19
+hola soy 9156, vuelta: 20, contador: 20
+hola soy 9154, vuelta: 20, contador: 20
+hola soy 9159, vuelta: 20, contador: 20
+hola soy 9155, vuelta: 20, contador: 20
+hola soy 9157, vuelta: 20, contador: 20
+hola soy 9153, vuelta: 20, contador: 20
+hola soy 9158, vuelta: 20, contador: 20
+hola soy 9160, vuelta: 20, contador: 20
+hola soy 9159, vuelta: 21, contador: 21
+hola soy 9154, vuelta: 21, contador: 21
+hola soy 9156, vuelta: 21, contador: 21
+hola soy 9155, vuelta: 21, contador: 21
+hola soy 9157, vuelta: 21, contador: 21
+hola soy 9158, vuelta: 21, contador: 21
+hola soy 9153, vuelta: 21, contador: 21
+hola soy 9160, vuelta: 21, contador: 21
+hola soy 9156, vuelta: 22, contador: 22
+hola soy 9158, vuelta: 22, contador: 22
+hola soy 9154, vuelta: 22, contador: 22
+hola soy 9157, vuelta: 22, contador: 22
+hola soy 9159, vuelta: 22, contador: 22
+hola soy 9153, vuelta: 22, contador: 22
+hola soy 9155, vuelta: 22, contador: 22
+hola soy 9160, vuelta: 22, contador: 22
+hola soy 9158, vuelta: 23, contador: 23
+hola soy 9156, vuelta: 23, contador: 23
+hola soy 9157, vuelta: 23, contador: 23
+hola soy 9154, vuelta: 23, contador: 23
+hola soy 9159, vuelta: 23, contador: 23
+hola soy 9155, vuelta: 23, contador: 23
+hola soy 9153, vuelta: 23, contador: 23
+hola soy 9160, vuelta: 23, contador: 23
+hola soy 9158, vuelta: 24, contador: 24
+hola soy 9156, vuelta: 24, contador: 24
+hola soy 9154, vuelta: 24, contador: 24
+hola soy 9155, vuelta: 24, contador: 24
+hola soy 9159, vuelta: 24, contador: 24
+hola soy 9153, vuelta: 24, contador: 24
+hola soy 9157, vuelta: 24, contador: 24
+hola soy 9160, vuelta: 24, contador: 24
+hola soy 9156, vuelta: 25, contador: 25
+hola soy 9158, vuelta: 25, contador: 25
+hola soy 9155, vuelta: 25, contador: 25
+hola soy 9154, vuelta: 25, contador: 25
+hola soy 9153, vuelta: 25, contador: 25
+hola soy 9159, vuelta: 25, contador: 25
+hola soy 9157, vuelta: 25, contador: 25
+hola soy 9160, vuelta: 25, contador: 25
+hola soy 9158, vuelta: 26, contador: 26
+hola soy 9156, vuelta: 26, contador: 26
+hola soy 9155, vuelta: 26, contador: 26
+hola soy 9159, vuelta: 26, contador: 26
+hola soy 9153, vuelta: 26, contador: 26
+hola soy 9157, vuelta: 26, contador: 26
+hola soy 9154, vuelta: 26, contador: 26
+hola soy 9160, vuelta: 26, contador: 26
+hola soy 9156, vuelta: 27, contador: 27
+hola soy 9158, vuelta: 27, contador: 27
+hola soy 9153, vuelta: 27, contador: 27
+hola soy 9155, vuelta: 27, contador: 27
+hola soy 9159, vuelta: 27, contador: 27
+hola soy 9157, vuelta: 27, contador: 27
+hola soy 9154, vuelta: 27, contador: 27
+hola soy 9160, vuelta: 27, contador: 27
+hola soy 9156, vuelta: 28, contador: 28
+hola soy 9158, vuelta: 28, contador: 28
+hola soy 9160, vuelta: 28, contador: 28
+hola soy 9155, vuelta: 28, contador: 28
+hola soy 9153, vuelta: 28, contador: 28
+hola soy 9159, vuelta: 28, contador: 28
+hola soy 9154, vuelta: 28, contador: 28
+hola soy 9157, vuelta: 28, contador: 28
+hola soy 9158, vuelta: 29, contador: 29
+hola soy 9156, vuelta: 29, contador: 29
+hola soy 9157, vuelta: 29, contador: 29
+hola soy 9160, vuelta: 29, contador: 29
+hola soy 9154, vuelta: 29, contador: 29
+hola soy 9153, vuelta: 29, contador: 29
+hola soy 9155, vuelta: 29, contador: 29
+hola soy 9159, vuelta: 29, contador: 29
+hola soy 9158, vuelta: 30, contador: 30
+hola soy 9156, vuelta: 30, contador: 30
+hola soy 9153, vuelta: 30, contador: 30
+hola soy 9154, vuelta: 30, contador: 30
+hola soy 9160, vuelta: 30, contador: 30
+hola soy 9157, vuelta: 30, contador: 30
+hola soy 9155, vuelta: 30, contador: 30
+hola soy 9159, vuelta: 30, contador: 30
+hola soy 9158, vuelta: 31, contador: 31
+hola soy 9156, vuelta: 31, contador: 31
+hola soy 9153, vuelta: 31, contador: 31
+hola soy 9159, vuelta: 31, contador: 31
+hola soy 9154, vuelta: 31, contador: 31
+hola soy 9155, vuelta: 31, contador: 31
+hola soy 9157, vuelta: 31, contador: 31
+hola soy 9160, vuelta: 31, contador: 31
+hola soy 9156, vuelta: 32, contador: 32
+hola soy 9158, vuelta: 32, contador: 32
+hola soy 9157, vuelta: 32, contador: 32
+hola soy 9153, vuelta: 32, contador: 32
+hola soy 9154, vuelta: 32, contador: 32
+hola soy 9159, vuelta: 32, contador: 32
+hola soy 9160, vuelta: 32, contador: 32
+hola soy 9155, vuelta: 32, contador: 32
+hola soy 9156, vuelta: 33, contador: 33
+hola soy 9157, vuelta: 33, contador: 33
+hola soy 9158, vuelta: 33, contador: 33
+hola soy 9155, vuelta: 33, contador: 33
+hola soy 9154, vuelta: 33, contador: 33
+hola soy 9153, vuelta: 33, contador: 33
+hola soy 9159, vuelta: 33, contador: 33
+hola soy 9160, vuelta: 33, contador: 33
+hola soy 9156, vuelta: 34, contador: 34
+hola soy 9157, vuelta: 34, contador: 34
+hola soy 9158, vuelta: 34, contador: 34
+hola soy 9155, vuelta: 34, contador: 34
+hola soy 9153, vuelta: 34, contador: 34
+hola soy 9154, vuelta: 34, contador: 34
+hola soy 9159, vuelta: 34, contador: 34
+hola soy 9160, vuelta: 34, contador: 34
+hola soy 9157, vuelta: 35, contador: 35
+hola soy 9156, vuelta: 35, contador: 35
+hola soy 9155, vuelta: 35, contador: 35
+hola soy 9158, vuelta: 35, contador: 35
+hola soy 9154, vuelta: 35, contador: 35
+hola soy 9153, vuelta: 35, contador: 35
+hola soy 9160, vuelta: 35, contador: 35
+hola soy 9159, vuelta: 35, contador: 35
+hola soy 9157, vuelta: 36, contador: 36
+hola soy 9156, vuelta: 36, contador: 36
+hola soy 9160, vuelta: 36, contador: 36
+hola soy 9158, vuelta: 36, contador: 36
+hola soy 9154, vuelta: 36, contador: 36
+hola soy 9153, vuelta: 36, contador: 36
+hola soy 9159, vuelta: 36, contador: 36
+hola soy 9155, vuelta: 36, contador: 36
+hola soy 9157, vuelta: 37, contador: 37
+hola soy 9156, vuelta: 37, contador: 37
+hola soy 9158, vuelta: 37, contador: 37
+hola soy 9154, vuelta: 37, contador: 37
+hola soy 9153, vuelta: 37, contador: 37
+hola soy 9160, vuelta: 37, contador: 37
+hola soy 9155, vuelta: 37, contador: 37
+hola soy 9159, vuelta: 37, contador: 37
+hola soy 9156, vuelta: 38, contador: 38
+hola soy 9158, vuelta: 38, contador: 38
+hola soy 9159, vuelta: 38, contador: 38
+hola soy 9154, vuelta: 38, contador: 38
+hola soy 9157, vuelta: 38, contador: 38
+hola soy 9155, vuelta: 38, contador: 38
+hola soy 9153, vuelta: 38, contador: 38
+hola soy 9160, vuelta: 38, contador: 38
+hola soy 9156, vuelta: 39, contador: 39
+hola soy 9158, vuelta: 39, contador: 39
+hola soy 9157, vuelta: 39, contador: 39
+hola soy 9155, vuelta: 39, contador: 39
+hola soy 9154, vuelta: 39, contador: 39
+hola soy 9159, vuelta: 39, contador: 39
+hola soy 9153, vuelta: 39, contador: 39
+hola soy 9160, vuelta: 39, contador: 39
+hola soy 9156, vuelta: 40, contador: 40
+hola soy 9155, vuelta: 40, contador: 40
+hola soy 9159, vuelta: 40, contador: 40
+hola soy 9157, vuelta: 40, contador: 40
+hola soy 9154, vuelta: 40, contador: 40
+hola soy 9153, vuelta: 40, contador: 40
+hola soy 9158, vuelta: 40, contador: 40
+hola soy 9160, vuelta: 40, contador: 40
+hola soy 9155, vuelta: 41, contador: 41
+hola soy 9156, vuelta: 41, contador: 41
+hola soy 9159, vuelta: 41, contador: 41
+hola soy 9158, vuelta: 41, contador: 41
+hola soy 9153, vuelta: 41, contador: 41
+hola soy 9160, vuelta: 41, contador: 41
+hola soy 9154, vuelta: 41, contador: 41
+hola soy 9157, vuelta: 41, contador: 41
+hola soy 9156, vuelta: 42, contador: 42
+hola soy 9159, vuelta: 42, contador: 42
+hola soy 9154, vuelta: 42, contador: 42
+hola soy 9157, vuelta: 42, contador: 42
+hola soy 9160, vuelta: 42, contador: 42
+hola soy 9158, vuelta: 42, contador: 42
+hola soy 9155, vuelta: 42, contador: 42
+hola soy 9153, vuelta: 42, contador: 42
+hola soy 9156, vuelta: 43, contador: 43
+hola soy 9158, vuelta: 43, contador: 43
+hola soy 9154, vuelta: 43, contador: 43
+hola soy 9160, vuelta: 43, contador: 43
+hola soy 9155, vuelta: 43, contador: 43
+hola soy 9159, vuelta: 43, contador: 43
+hola soy 9157, vuelta: 43, contador: 43
+hola soy 9153, vuelta: 43, contador: 43
+hola soy 9156, vuelta: 44, contador: 44
+hola soy 9153, vuelta: 44, contador: 44
+hola soy 9158, vuelta: 44, contador: 44
+hola soy 9159, vuelta: 44, contador: 44
+hola soy 9155, vuelta: 44, contador: 44
+hola soy 9154, vuelta: 44, contador: 44
+hola soy 9157, vuelta: 44, contador: 44
+hola soy 9160, vuelta: 44, contador: 44
+hola soy 9156, vuelta: 45, contador: 45
+hola soy 9153, vuelta: 45, contador: 45
+hola soy 9158, vuelta: 45, contador: 45
+hola soy 9159, vuelta: 45, contador: 45
+hola soy 9154, vuelta: 45, contador: 45
+hola soy 9155, vuelta: 45, contador: 45
+hola soy 9157, vuelta: 45, contador: 45
+hola soy 9160, vuelta: 45, contador: 45
+hola soy 9158, vuelta: 46, contador: 46
+hola soy 9153, vuelta: 46, contador: 46
+hola soy 9156, vuelta: 46, contador: 46
+hola soy 9154, vuelta: 46, contador: 46
+hola soy 9159, vuelta: 46, contador: 46
+hola soy 9157, vuelta: 46, contador: 46
+hola soy 9155, vuelta: 46, contador: 46
+hola soy 9160, vuelta: 46, contador: 46
+hola soy 9156, vuelta: 47, contador: 47
+hola soy 9153, vuelta: 47, contador: 47
+hola soy 9158, vuelta: 47, contador: 47
+hola soy 9157, vuelta: 47, contador: 47
+hola soy 9159, vuelta: 47, contador: 47
+hola soy 9155, vuelta: 47, contador: 47
+hola soy 9154, vuelta: 47, contador: 47
+hola soy 9160, vuelta: 47, contador: 47
+hola soy 9158, vuelta: 48, contador: 48
+hola soy 9153, vuelta: 48, contador: 48
+hola soy 9156, vuelta: 48, contador: 48
+hola soy 9157, vuelta: 48, contador: 48
+hola soy 9159, vuelta: 48, contador: 48
+hola soy 9155, vuelta: 48, contador: 48
+hola soy 9160, vuelta: 48, contador: 48
+hola soy 9154, vuelta: 48, contador: 48
+hola soy 9158, vuelta: 49, contador: 49
+hola soy 9153, vuelta: 49, contador: 49
+hola soy 9156, vuelta: 49, contador: 49
+hola soy 9157, vuelta: 49, contador: 49
+hola soy 9160, vuelta: 49, contador: 49
+hola soy 9159, vuelta: 49, contador: 49
+hola soy 9154, vuelta: 49, contador: 49
+hola soy 9155, vuelta: 49, contador: 49
+hola soy 9156, vuelta: 50, contador: 50
+hola soy 9158, vuelta: 50, contador: 50
+hola soy 9160, vuelta: 50, contador: 50
+hola soy 9153, vuelta: 50, contador: 50
+hola soy 9157, vuelta: 50, contador: 50
+hola soy 9159, vuelta: 50, contador: 50
+hola soy 9155, vuelta: 50, contador: 50
+hola soy 9154, vuelta: 50, contador: 50
+hola soy 9156, vuelta: 51, contador: 51
+hola soy 9153, vuelta: 51, contador: 51
+hola soy 9159, vuelta: 51, contador: 51
+hola soy 9155, vuelta: 51, contador: 51
+hola soy 9157, vuelta: 51, contador: 51
+hola soy 9154, vuelta: 51, contador: 51
+hola soy 9158, vuelta: 51, contador: 51
+hola soy 9160, vuelta: 51, contador: 51
+hola soy 9153, vuelta: 52, contador: 52
+hola soy 9159, vuelta: 52, contador: 52
+hola soy 9156, vuelta: 52, contador: 52
+hola soy 9154, vuelta: 52, contador: 52
+hola soy 9158, vuelta: 52, contador: 52
+hola soy 9160, vuelta: 52, contador: 52
+hola soy 9155, vuelta: 52, contador: 52
+hola soy 9157, vuelta: 52, contador: 52
+hola soy 9156, vuelta: 53, contador: 53
+hola soy 9159, vuelta: 53, contador: 53
+hola soy 9153, vuelta: 53, contador: 53
+hola soy 9154, vuelta: 53, contador: 53
+hola soy 9155, vuelta: 53, contador: 53
+hola soy 9158, vuelta: 53, contador: 53
+hola soy 9157, vuelta: 53, contador: 53
+hola soy 9160, vuelta: 53, contador: 53
+hola soy 9155, vuelta: 54, contador: 54
+hola soy 9156, vuelta: 54, contador: 54
+hola soy 9159, vuelta: 54, contador: 54
+hola soy 9160, vuelta: 54, contador: 54
+hola soy 9157, vuelta: 54, contador: 54
+hola soy 9158, vuelta: 54, contador: 54
+hola soy 9153, vuelta: 54, contador: 54
+hola soy 9154, vuelta: 54, contador: 54
+hola soy 9154, vuelta: 55, contador: 55
+hola soy 9158, vuelta: 55, contador: 55
+hola soy 9153, vuelta: 55, contador: 55
+hola soy 9160, vuelta: 55, contador: 55
+hola soy 9156, vuelta: 55, contador: 55
+hola soy 9155, vuelta: 55, contador: 55
+hola soy 9157, vuelta: 55, contador: 55
+hola soy 9159, vuelta: 55, contador: 55
+hola soy 9154, vuelta: 56, contador: 56
+hola soy 9158, vuelta: 56, contador: 56
+hola soy 9160, vuelta: 56, contador: 56
+hola soy 9153, vuelta: 56, contador: 56
+hola soy 9157, vuelta: 56, contador: 56
+hola soy 9155, vuelta: 56, contador: 56
+hola soy 9159, vuelta: 56, contador: 56
+hola soy 9156, vuelta: 56, contador: 56
+hola soy 9153, vuelta: 57, contador: 57
+hola soy 9159, vuelta: 57, contador: 57
+hola soy 9155, vuelta: 57, contador: 57
+hola soy 9156, vuelta: 57, contador: 57
+hola soy 9160, vuelta: 57, contador: 57
+hola soy 9157, vuelta: 57, contador: 57
+hola soy 9158, vuelta: 57, contador: 57
+hola soy 9154, vuelta: 57, contador: 57
+hola soy 9155, vuelta: 58, contador: 58
+hola soy 9153, vuelta: 58, contador: 58
+hola soy 9157, vuelta: 58, contador: 58
+hola soy 9160, vuelta: 58, contador: 58
+hola soy 9158, vuelta: 58, contador: 58
+hola soy 9159, vuelta: 58, contador: 58
+hola soy 9154, vuelta: 58, contador: 58
+hola soy 9156, vuelta: 58, contador: 58
+hola soy 9154, vuelta: 59, contador: 59
+hola soy 9160, vuelta: 59, contador: 59
+hola soy 9156, vuelta: 59, contador: 59
+hola soy 9155, vuelta: 59, contador: 59
+hola soy 9157, vuelta: 59, contador: 59
+hola soy 9159, vuelta: 59, contador: 59
+hola soy 9153, vuelta: 59, contador: 59
+hola soy 9158, vuelta: 59, contador: 59
+hola soy 9154, vuelta: 60, contador: 60
+hola soy 9157, vuelta: 60, contador: 60
+hola soy 9158, vuelta: 60, contador: 60
+hola soy 9159, vuelta: 60, contador: 60
+hola soy 9153, vuelta: 60, contador: 60
+hola soy 9155, vuelta: 60, contador: 60
+hola soy 9156, vuelta: 60, contador: 60
+hola soy 9160, vuelta: 60, contador: 60
+hola soy 9154, vuelta: 61, contador: 61
+hola soy 9155, vuelta: 61, contador: 61
+hola soy 9159, vuelta: 61, contador: 61
+hola soy 9158, vuelta: 61, contador: 61
+hola soy 9156, vuelta: 61, contador: 61
+hola soy 9153, vuelta: 61, contador: 61
+hola soy 9160, vuelta: 61, contador: 61
+hola soy 9157, vuelta: 61, contador: 61
+hola soy 9154, vuelta: 62, contador: 62
+hola soy 9158, vuelta: 62, contador: 62
+hola soy 9156, vuelta: 62, contador: 62
+hola soy 9155, vuelta: 62, contador: 62
+hola soy 9159, vuelta: 62, contador: 62
+hola soy 9153, vuelta: 62, contador: 62
+hola soy 9160, vuelta: 62, contador: 62
+hola soy 9157, vuelta: 62, contador: 62
+hola soy 9154, vuelta: 63, contador: 63
+hola soy 9158, vuelta: 63, contador: 63
+hola soy 9156, vuelta: 63, contador: 63
+hola soy 9155, vuelta: 63, contador: 63
+hola soy 9159, vuelta: 63, contador: 63
+hola soy 9160, vuelta: 63, contador: 63
+hola soy 9153, vuelta: 63, contador: 63
+hola soy 9157, vuelta: 63, contador: 63
+hola soy 9154, vuelta: 64, contador: 64
+hola soy 9155, vuelta: 64, contador: 64
+hola soy 9159, vuelta: 64, contador: 64
+hola soy 9160, vuelta: 64, contador: 64
+hola soy 9157, vuelta: 64, contador: 64
+hola soy 9153, vuelta: 64, contador: 64
+hola soy 9156, vuelta: 64, contador: 64
+hola soy 9158, vuelta: 64, contador: 64
+hola soy 9154, vuelta: 65, contador: 65
+hola soy 9157, vuelta: 65, contador: 65
+hola soy 9158, vuelta: 65, contador: 65
+hola soy 9159, vuelta: 65, contador: 65
+hola soy 9160, vuelta: 65, contador: 65
+hola soy 9155, vuelta: 65, contador: 65
+hola soy 9156, vuelta: 65, contador: 65
+hola soy 9153, vuelta: 65, contador: 65
+hola soy 9154, vuelta: 66, contador: 66
+hola soy 9157, vuelta: 66, contador: 66
+hola soy 9160, vuelta: 66, contador: 66
+hola soy 9159, vuelta: 66, contador: 66
+hola soy 9158, vuelta: 66, contador: 66
+hola soy 9153, vuelta: 66, contador: 66
+hola soy 9155, vuelta: 66, contador: 66
+hola soy 9156, vuelta: 66, contador: 66
+hola soy 9154, vuelta: 67, contador: 67
+hola soy 9160, vuelta: 67, contador: 67
+hola soy 9157, vuelta: 67, contador: 67
+hola soy 9156, vuelta: 67, contador: 67
+hola soy 9158, vuelta: 67, contador: 67
+hola soy 9155, vuelta: 67, contador: 67
+hola soy 9153, vuelta: 67, contador: 67
+hola soy 9159, vuelta: 67, contador: 67
+hola soy 9154, vuelta: 68, contador: 68
+hola soy 9157, vuelta: 68, contador: 68
+hola soy 9156, vuelta: 68, contador: 68
+hola soy 9160, vuelta: 68, contador: 68
+hola soy 9158, vuelta: 68, contador: 68
+hola soy 9159, vuelta: 68, contador: 68
+hola soy 9153, vuelta: 68, contador: 68
+hola soy 9155, vuelta: 68, contador: 68
+hola soy 9154, vuelta: 69, contador: 69
+hola soy 9156, vuelta: 69, contador: 69
+hola soy 9157, vuelta: 69, contador: 69
+hola soy 9160, vuelta: 69, contador: 69
+hola soy 9158, vuelta: 69, contador: 69
+hola soy 9159, vuelta: 69, contador: 69
+hola soy 9155, vuelta: 69, contador: 69
+hola soy 9153, vuelta: 69, contador: 69
+hola soy 9159, vuelta: 70, contador: 70
+hola soy 9157, vuelta: 70, contador: 70
+hola soy 9154, vuelta: 70, contador: 70
+hola soy 9158, vuelta: 70, contador: 70
+hola soy 9156, vuelta: 70, contador: 70
+hola soy 9160, vuelta: 70, contador: 70
+hola soy 9153, vuelta: 70, contador: 70
+hola soy 9155, vuelta: 70, contador: 70
+hola soy 9154, vuelta: 71, contador: 71
+hola soy 9156, vuelta: 71, contador: 71
+hola soy 9157, vuelta: 71, contador: 71
+hola soy 9159, vuelta: 71, contador: 71
+hola soy 9153, vuelta: 71, contador: 71
+hola soy 9160, vuelta: 71, contador: 71
+hola soy 9155, vuelta: 71, contador: 71
+hola soy 9158, vuelta: 71, contador: 71
+hola soy 9154, vuelta: 72, contador: 72
+hola soy 9153, vuelta: 72, contador: 72
+hola soy 9155, vuelta: 72, contador: 72
+hola soy 9160, vuelta: 72, contador: 72
+hola soy 9159, vuelta: 72, contador: 72
+hola soy 9157, vuelta: 72, contador: 72
+hola soy 9156, vuelta: 72, contador: 72
+hola soy 9158, vuelta: 72, contador: 72
+hola soy 9154, vuelta: 73, contador: 73
+hola soy 9153, vuelta: 73, contador: 73
+hola soy 9158, vuelta: 73, contador: 73
+hola soy 9155, vuelta: 73, contador: 73
+hola soy 9157, vuelta: 73, contador: 73
+hola soy 9156, vuelta: 73, contador: 73
+hola soy 9160, vuelta: 73, contador: 73
+hola soy 9159, vuelta: 73, contador: 73
+hola soy 9154, vuelta: 74, contador: 74
+hola soy 9157, vuelta: 74, contador: 74
+hola soy 9158, vuelta: 74, contador: 74
+hola soy 9156, vuelta: 74, contador: 74
+hola soy 9160, vuelta: 74, contador: 74
+hola soy 9155, vuelta: 74, contador: 74
+hola soy 9153, vuelta: 74, contador: 74
+hola soy 9159, vuelta: 74, contador: 74
+hola soy 9154, vuelta: 75, contador: 75
+hola soy 9157, vuelta: 75, contador: 75
+hola soy 9158, vuelta: 75, contador: 75
+hola soy 9159, vuelta: 75, contador: 75
+hola soy 9156, vuelta: 75, contador: 75
+hola soy 9153, vuelta: 75, contador: 75
+hola soy 9160, vuelta: 75, contador: 75
+hola soy 9155, vuelta: 75, contador: 75
+hola soy 9154, vuelta: 76, contador: 76
+hola soy 9157, vuelta: 76, contador: 76
+hola soy 9159, vuelta: 76, contador: 76
+hola soy 9153, vuelta: 76, contador: 76
+hola soy 9160, vuelta: 76, contador: 76
+hola soy 9156, vuelta: 76, contador: 76
+hola soy 9158, vuelta: 76, contador: 76
+hola soy 9155, vuelta: 76, contador: 76
+hola soy 9154, vuelta: 77, contador: 77
+hola soy 9157, vuelta: 77, contador: 77
+hola soy 9159, vuelta: 77, contador: 77
+hola soy 9155, vuelta: 77, contador: 77
+hola soy 9153, vuelta: 77, contador: 77
+hola soy 9156, vuelta: 77, contador: 77
+hola soy 9160, vuelta: 77, contador: 77
+hola soy 9158, vuelta: 77, contador: 77
+hola soy 9154, vuelta: 78, contador: 78
+hola soy 9157, vuelta: 78, contador: 78
+hola soy 9159, vuelta: 78, contador: 78
+hola soy 9155, vuelta: 78, contador: 78
+hola soy 9153, vuelta: 78, contador: 78
+hola soy 9160, vuelta: 78, contador: 78
+hola soy 9158, vuelta: 78, contador: 78
+hola soy 9156, vuelta: 78, contador: 78
+hola soy 9154, vuelta: 79, contador: 79
+hola soy 9159, vuelta: 79, contador: 79
+hola soy 9155, vuelta: 79, contador: 79
+hola soy 9153, vuelta: 79, contador: 79
+hola soy 9156, vuelta: 79, contador: 79
+hola soy 9160, vuelta: 79, contador: 79
+hola soy 9158, vuelta: 79, contador: 79
+hola soy 9157, vuelta: 79, contador: 79
+hola soy 9159, vuelta: 80, contador: 80
+hola soy 9154, vuelta: 80, contador: 80
+hola soy 9153, vuelta: 80, contador: 80
+hola soy 9157, vuelta: 80, contador: 80
+hola soy 9155, vuelta: 80, contador: 80
+hola soy 9158, vuelta: 80, contador: 80
+hola soy 9156, vuelta: 80, contador: 80
+hola soy 9160, vuelta: 80, contador: 80
+hola soy 9159, vuelta: 81, contador: 81
+hola soy 9160, vuelta: 81, contador: 81
+hola soy 9157, vuelta: 81, contador: 81
+hola soy 9156, vuelta: 81, contador: 81
+hola soy 9158, vuelta: 81, contador: 81
+hola soy 9153, vuelta: 81, contador: 81
+hola soy 9154, vuelta: 81, contador: 81
+hola soy 9155, vuelta: 81, contador: 81
+hola soy 9153, vuelta: 82, contador: 82
+hola soy 9158, vuelta: 82, contador: 82
+hola soy 9156, vuelta: 82, contador: 82
+hola soy 9154, vuelta: 82, contador: 82
+hola soy 9160, vuelta: 82, contador: 82
+hola soy 9157, vuelta: 82, contador: 82
+hola soy 9155, vuelta: 82, contador: 82
+hola soy 9159, vuelta: 82, contador: 82
+hola soy 9158, vuelta: 83, contador: 83
+hola soy 9153, vuelta: 83, contador: 83
+hola soy 9155, vuelta: 83, contador: 83
+hola soy 9156, vuelta: 83, contador: 83
+hola soy 9154, vuelta: 83, contador: 83
+hola soy 9160, vuelta: 83, contador: 83
+hola soy 9159, vuelta: 83, contador: 83
+hola soy 9157, vuelta: 83, contador: 83
+hola soy 9155, vuelta: 84, contador: 84
+hola soy 9154, vuelta: 84, contador: 84
+hola soy 9153, vuelta: 84, contador: 84
+hola soy 9160, vuelta: 84, contador: 84
+hola soy 9156, vuelta: 84, contador: 84
+hola soy 9158, vuelta: 84, contador: 84
+hola soy 9157, vuelta: 84, contador: 84
+hola soy 9159, vuelta: 84, contador: 84
+hola soy 9155, vuelta: 85, contador: 85
+hola soy 9153, vuelta: 85, contador: 85
+hola soy 9154, vuelta: 85, contador: 85
+hola soy 9156, vuelta: 85, contador: 85
+hola soy 9159, vuelta: 85, contador: 85
+hola soy 9160, vuelta: 85, contador: 85
+hola soy 9157, vuelta: 85, contador: 85
+hola soy 9158, vuelta: 85, contador: 85
+hola soy 9160, vuelta: 86, contador: 86
+hola soy 9156, vuelta: 86, contador: 86
+hola soy 9157, vuelta: 86, contador: 86
+hola soy 9153, vuelta: 86, contador: 86
+hola soy 9155, vuelta: 86, contador: 86
+hola soy 9154, vuelta: 86, contador: 86
+hola soy 9158, vuelta: 86, contador: 86
+hola soy 9159, vuelta: 86, contador: 86
+hola soy 9156, vuelta: 87, contador: 87
+hola soy 9157, vuelta: 87, contador: 87
+hola soy 9155, vuelta: 87, contador: 87
+hola soy 9154, vuelta: 87, contador: 87
+hola soy 9158, vuelta: 87, contador: 87
+hola soy 9153, vuelta: 87, contador: 87
+hola soy 9159, vuelta: 87, contador: 87
+hola soy 9160, vuelta: 87, contador: 87
+hola soy 9155, vuelta: 88, contador: 88
+hola soy 9154, vuelta: 88, contador: 88
+hola soy 9158, vuelta: 88, contador: 88
+hola soy 9156, vuelta: 88, contador: 88
+hola soy 9159, vuelta: 88, contador: 88
+hola soy 9157, vuelta: 88, contador: 88
+hola soy 9160, vuelta: 88, contador: 88
+hola soy 9153, vuelta: 88, contador: 88
+hola soy 9154, vuelta: 89, contador: 89
+hola soy 9160, vuelta: 89, contador: 89
+hola soy 9158, vuelta: 89, contador: 89
+hola soy 9159, vuelta: 89, contador: 89
+hola soy 9157, vuelta: 89, contador: 89
+hola soy 9156, vuelta: 89, contador: 89
+hola soy 9155, vuelta: 89, contador: 89
+hola soy 9153, vuelta: 89, contador: 89
+hola soy 9154, vuelta: 90, contador: 90
+hola soy 9160, vuelta: 90, contador: 90
+hola soy 9156, vuelta: 90, contador: 90
+hola soy 9157, vuelta: 90, contador: 90
+hola soy 9153, vuelta: 90, contador: 90
+hola soy 9159, vuelta: 90, contador: 90
+hola soy 9158, vuelta: 90, contador: 90
+hola soy 9155, vuelta: 90, contador: 90
+hola soy 9153, vuelta: 91, contador: 91
+hola soy 9154, vuelta: 91, contador: 91
+hola soy 9160, vuelta: 91, contador: 91
+hola soy 9157, vuelta: 91, contador: 91
+hola soy 9155, vuelta: 91, contador: 91
+hola soy 9159, vuelta: 91, contador: 91
+hola soy 9156, vuelta: 91, contador: 91
+hola soy 9158, vuelta: 91, contador: 91
+hola soy 9160, vuelta: 92, contador: 92
+hola soy 9157, vuelta: 92, contador: 92
+hola soy 9158, vuelta: 92, contador: 92
+hola soy 9153, vuelta: 92, contador: 92
+hola soy 9159, vuelta: 92, contador: 92
+hola soy 9154, vuelta: 92, contador: 92
+hola soy 9156, vuelta: 92, contador: 92
+hola soy 9155, vuelta: 92, contador: 92
+hola soy 9157, vuelta: 93, contador: 93
+hola soy 9155, vuelta: 93, contador: 93
+hola soy 9153, vuelta: 93, contador: 93
+hola soy 9158, vuelta: 93, contador: 93
+hola soy 9154, vuelta: 93, contador: 93
+hola soy 9160, vuelta: 93, contador: 93
+hola soy 9156, vuelta: 93, contador: 93
+hola soy 9159, vuelta: 93, contador: 93
+hola soy 9153, vuelta: 94, contador: 94
+hola soy 9158, vuelta: 94, contador: 94
+hola soy 9156, vuelta: 94, contador: 94
+hola soy 9155, vuelta: 94, contador: 94
+hola soy 9160, vuelta: 94, contador: 94
+hola soy 9159, vuelta: 94, contador: 94
+hola soy 9154, vuelta: 94, contador: 94
+hola soy 9157, vuelta: 94, contador: 94
+hola soy 9153, vuelta: 95, contador: 95
+hola soy 9158, vuelta: 95, contador: 95
+hola soy 9159, vuelta: 95, contador: 95
+hola soy 9156, vuelta: 95, contador: 95
+hola soy 9160, vuelta: 95, contador: 95
+hola soy 9155, vuelta: 95, contador: 95
+hola soy 9154, vuelta: 95, contador: 95
+hola soy 9157, vuelta: 95, contador: 95
+hola soy 9156, vuelta: 96, contador: 96
+hola soy 9160, vuelta: 96, contador: 96
+hola soy 9153, vuelta: 96, contador: 96
+hola soy 9159, vuelta: 96, contador: 96
+hola soy 9155, vuelta: 96, contador: 96
+hola soy 9154, vuelta: 96, contador: 96
+hola soy 9158, vuelta: 96, contador: 96
+hola soy 9157, vuelta: 96, contador: 96
+hola soy 9156, vuelta: 97, contador: 97
+hola soy 9160, vuelta: 97, contador: 97
+hola soy 9157, vuelta: 97, contador: 97
+hola soy 9159, vuelta: 97, contador: 97
+hola soy 9158, vuelta: 97, contador: 97
+hola soy 9154, vuelta: 97, contador: 97
+hola soy 9153, vuelta: 97, contador: 97
+hola soy 9155, vuelta: 97, contador: 97
+hola soy 9156, vuelta: 98, contador: 98
+hola soy 9160, vuelta: 98, contador: 98
+hola soy 9154, vuelta: 98, contador: 98
+hola soy 9153, vuelta: 98, contador: 98
+hola soy 9159, vuelta: 98, contador: 98
+hola soy 9158, vuelta: 98, contador: 98
+hola soy 9155, vuelta: 98, contador: 98
+hola soy 9157, vuelta: 98, contador: 98
+hola soy 9156, vuelta: 99, contador: 99
+hola soy 9160, vuelta: 99, contador: 99
+hola soy 9159, vuelta: 99, contador: 99
+hola soy 9157, vuelta: 99, contador: 99
+hola soy 9154, vuelta: 99, contador: 99
+hola soy 9158, vuelta: 99, contador: 99
+hola soy 9153, vuelta: 99, contador: 99
+hola soy 9155, vuelta: 99, contador: 99
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ python3 3_procesos.py[1P_procesos.py4_procesos.py
+  File "4_procesos.py", line 15
+    c = Value(’i’, 0)
+                ^
+SyntaxError: invalid character in identifier
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ python3 4_procesos.py
+Valor inicial del contador 0
+hola soy 9214, vuelta: 0, contador: 1
+hola soy 9214, vuelta: 1, contador: 2
+hola soy 9214, vuelta: 2, contador: 3
+hola soy 9214, vuelta: 3, contador: 4
+hola soy 9214, vuelta: 4, contador: 5
+hola soy 9214, vuelta: 5, contador: 6
+hola soy 9214, vuelta: 6, contador: 7
+hola soy 9214, vuelta: 7, contador: 8
+hola soy 9214, vuelta: 8, contador: 9
+hola soy 9214, vuelta: 9, contador: 10
+hola soy 9214, vuelta: 10, contador: 11
+hola soy 9214, vuelta: 11, contador: 12
+hola soy 9214, vuelta: 12, contador: 13
+hola soy 9214, vuelta: 13, contador: 14
+hola soy 9214, vuelta: 14, contador: 15
+hola soy 9214, vuelta: 15, contador: 16
+hola soy 9214, vuelta: 16, contador: 17
+hola soy 9214, vuelta: 17, contador: 18
+hola soy 9214, vuelta: 18, contador: 19
+hola soy 9214, vuelta: 19, contador: 20
+hola soy 9214, vuelta: 20, contador: 21
+hola soy 9214, vuelta: 21, contador: 22
+hola soy 9214, vuelta: 22, contador: 23
+hola soy 9214, vuelta: 23, contador: 24
+hola soy 9214, vuelta: 24, contador: 25
+hola soy 9214, vuelta: 25, contador: 26
+hola soy 9214, vuelta: 26, contador: 27
+hola soy 9214, vuelta: 27, contador: 28
+hola soy 9214, vuelta: 28, contador: 29
+hola soy 9214, vuelta: 29, contador: 30
+hola soy 9214, vuelta: 30, contador: 31
+hola soy 9214, vuelta: 31, contador: 32
+hola soy 9214, vuelta: 32, contador: 33
+hola soy 9214, vuelta: 33, contador: 34
+hola soy 9214, vuelta: 34, contador: 35
+hola soy 9214, vuelta: 35, contador: 36
+hola soy 9214, vuelta: 36, contador: 37
+hola soy 9214, vuelta: 37, contador: 38
+hola soy 9214, vuelta: 38, contador: 39
+hola soy 9214, vuelta: 39, contador: 40
+hola soy 9214, vuelta: 40, contador: 41
+hola soy 9214, vuelta: 41, contador: 42
+hola soy 9214, vuelta: 42, contador: 43
+hola soy 9214, vuelta: 43, contador: 44
+hola soy 9214, vuelta: 44, contador: 45
+hola soy 9214, vuelta: 45, contador: 46
+hola soy 9214, vuelta: 46, contador: 47
+hola soy 9214, vuelta: 47, contador: 48
+hola soy 9214, vuelta: 48, contador: 49
+hola soy 9214, vuelta: 49, contador: 50
+hola soy 9214, vuelta: 50, contador: 51
+hola soy 9214, vuelta: 51, contador: 52
+hola soy 9214, vuelta: 52, contador: 53
+hola soy 9214, vuelta: 53, contador: 54
+hola soy 9214, vuelta: 54, contador: 55
+hola soy 9214, vuelta: 55, contador: 56
+hola soy 9214, vuelta: 56, contador: 57
+hola soy 9214, vuelta: 57, contador: 58
+hola soy 9214, vuelta: 58, contador: 59
+hola soy 9214, vuelta: 59, contador: 60
+hola soy 9214, vuelta: 60, contador: 61
+hola soy 9214, vuelta: 61, contador: 62
+hola soy 9214, vuelta: 62, contador: 63
+hola soy 9214, vuelta: 63, contador: 64
+hola soy 9214, vuelta: 64, contador: 65
+hola soy 9214, vuelta: 65, contador: 66
+hola soy 9214, vuelta: 66, contador: 67
+hola soy 9214, vuelta: 67, contador: 68
+hola soy 9214, vuelta: 68, contador: 69
+hola soy 9214, vuelta: 69, contador: 70
+hola soy 9214, vuelta: 70, contador: 71
+hola soy 9214, vuelta: 71, contador: 72
+hola soy 9214, vuelta: 72, contador: 73
+hola soy 9214, vuelta: 73, contador: 75
+hola soy 9214, vuelta: 74, contador: 76
+hola soy 9214, vuelta: 75, contador: 77
+hola soy 9214, vuelta: 76, contador: 78
+hola soy 9215, vuelta: 0, contador: 76
+hola soy 9214, vuelta: 77, contador: 79
+hola soy 9215, vuelta: 1, contador: 80
+hola soy 9214, vuelta: 78, contador: 81
+hola soy 9215, vuelta: 2, contador: 82
+hola soy 9215, vuelta: 3, contador: 83
+hola soy 9215, vuelta: 4, contador: 84
+hola soy 9215, vuelta: 5, contador: 85
+hola soy 9215, vuelta: 6, contador: 86
+hola soy 9215, vuelta: 7, contador: 87
+hola soy 9215, vuelta: 8, contador: 88
+hola soy 9215, vuelta: 9, contador: 89
+hola soy 9215, vuelta: 10, contador: 90
+hola soy 9215, vuelta: 11, contador: 91
+hola soy 9215, vuelta: 12, contador: 92
+hola soy 9215, vuelta: 13, contador: 93
+hola soy 9215, vuelta: 14, contador: 94
+hola soy 9215, vuelta: 15, contador: 95
+hola soy 9215, vuelta: 16, contador: 96
+hola soy 9215, vuelta: 17, contador: 97
+hola soy 9215, vuelta: 18, contador: 98
+hola soy 9215, vuelta: 19, contador: 99
+hola soy 9215, vuelta: 20, contador: 100
+hola soy 9215, vuelta: 21, contador: 101
+hola soy 9215, vuelta: 22, contador: 102
+hola soy 9215, vuelta: 23, contador: 103
+hola soy 9215, vuelta: 24, contador: 104
+hola soy 9215, vuelta: 25, contador: 105
+hola soy 9215, vuelta: 26, contador: 106
+hola soy 9215, vuelta: 27, contador: 84
+hola soy 9214, vuelta: 79, contador: 84
+hola soy 9215, vuelta: 28, contador: 85
+hola soy 9215, vuelta: 29, contador: 86
+hola soy 9214, vuelta: 80, contador: 86
+hola soy 9215, vuelta: 30, contador: 87
+hola soy 9214, vuelta: 81, contador: 88
+hola soy 9215, vuelta: 31, contador: 89
+hola soy 9214, vuelta: 82, contador: 91
+hola soy 9215, vuelta: 32, contador: 91
+hola soy 9214, vuelta: 83, contador: 92
+hola soy 9215, vuelta: 33, contador: 93
+hola soy 9214, vuelta: 84, contador: 94
+hola soy 9215, vuelta: 34, contador: 96
+hola soy 9214, vuelta: 85, contador: 96
+hola soy 9215, vuelta: 35, contador: 97
+hola soy 9214, vuelta: 86, contador: 98
+hola soy 9215, vuelta: 36, contador: 99
+hola soy 9214, vuelta: 87, contador: 100
+hola soy 9215, vuelta: 37, contador: 101
+hola soy 9214, vuelta: 88, contador: 102
+hola soy 9215, vuelta: 38, contador: 103
+hola soy 9214, vuelta: 89, contador: 104
+hola soy 9215, vuelta: 39, contador: 105
+hola soy 9214, vuelta: 90, contador: 106
+hola soy 9215, vuelta: 40, contador: 108
+hola soy 9214, vuelta: 91, contador: 108
+hola soy 9215, vuelta: 41, contador: 109
+hola soy 9214, vuelta: 92, contador: 110
+hola soy 9215, vuelta: 42, contador: 112
+hola soy 9214, vuelta: 93, contador: 112
+hola soy 9215, vuelta: 43, contador: 114
+hola soy 9214, vuelta: 94, contador: 114
+hola soy 9215, vuelta: 44, contador: 115
+hola soy 9214, vuelta: 95, contador: 116
+hola soy 9215, vuelta: 45, contador: 117
+hola soy 9214, vuelta: 96, contador: 118
+hola soy 9215, vuelta: 46, contador: 119
+hola soy 9214, vuelta: 97, contador: 120
+hola soy 9215, vuelta: 47, contador: 121
+hola soy 9214, vuelta: 98, contador: 122
+hola soy 9215, vuelta: 48, contador: 123
+hola soy 9214, vuelta: 99, contador: 124
+hola soy 9215, vuelta: 49, contador: 125
+hola soy 9215, vuelta: 50, contador: 126
+hola soy 9215, vuelta: 51, contador: 127
+hola soy 9215, vuelta: 52, contador: 128
+hola soy 9215, vuelta: 53, contador: 129
+hola soy 9215, vuelta: 54, contador: 130
+hola soy 9215, vuelta: 55, contador: 131
+hola soy 9215, vuelta: 56, contador: 132
+hola soy 9215, vuelta: 57, contador: 133
+hola soy 9215, vuelta: 58, contador: 134
+hola soy 9215, vuelta: 59, contador: 135
+hola soy 9215, vuelta: 60, contador: 136
+hola soy 9215, vuelta: 61, contador: 137
+hola soy 9215, vuelta: 62, contador: 138
+hola soy 9215, vuelta: 63, contador: 139
+hola soy 9215, vuelta: 64, contador: 140
+hola soy 9215, vuelta: 65, contador: 141
+hola soy 9215, vuelta: 66, contador: 142
+hola soy 9215, vuelta: 67, contador: 143
+hola soy 9215, vuelta: 68, contador: 144
+hola soy 9215, vuelta: 69, contador: 145
+hola soy 9215, vuelta: 70, contador: 146
+hola soy 9216, vuelta: 0, contador: 144
+hola soy 9215, vuelta: 71, contador: 147
+hola soy 9215, vuelta: 72, contador: 148
+hola soy 9216, vuelta: 1, contador: 148
+hola soy 9215, vuelta: 73, contador: 150
+hola soy 9216, vuelta: 2, contador: 150
+hola soy 9215, vuelta: 74, contador: 151
+hola soy 9216, vuelta: 3, contador: 152
+hola soy 9215, vuelta: 75, contador: 153
+hola soy 9216, vuelta: 4, contador: 155
+hola soy 9215, vuelta: 76, contador: 155
+hola soy 9216, vuelta: 5, contador: 156
+hola soy 9215, vuelta: 77, contador: 157
+hola soy 9216, vuelta: 6, contador: 159
+hola soy 9215, vuelta: 78, contador: 159
+hola soy 9216, vuelta: 7, contador: 160
+hola soy 9215, vuelta: 79, contador: 161
+hola soy 9216, vuelta: 8, contador: 162
+hola soy 9215, vuelta: 80, contador: 163
+hola soy 9216, vuelta: 9, contador: 164
+hola soy 9215, vuelta: 81, contador: 165
+hola soy 9216, vuelta: 10, contador: 166
+hola soy 9215, vuelta: 82, contador: 167
+hola soy 9216, vuelta: 11, contador: 168
+hola soy 9215, vuelta: 83, contador: 169
+hola soy 9216, vuelta: 12, contador: 170
+hola soy 9215, vuelta: 84, contador: 171
+hola soy 9216, vuelta: 13, contador: 172
+hola soy 9215, vuelta: 85, contador: 173
+hola soy 9216, vuelta: 14, contador: 175
+hola soy 9215, vuelta: 86, contador: 175
+hola soy 9216, vuelta: 15, contador: 177
+hola soy 9215, vuelta: 87, contador: 177
+hola soy 9216, vuelta: 16, contador: 178
+hola soy 9215, vuelta: 88, contador: 179
+hola soy 9216, vuelta: 17, contador: 181
+hola soy 9215, vuelta: 89, contador: 181
+hola soy 9216, vuelta: 18, contador: 183
+hola soy 9215, vuelta: 90, contador: 183
+hola soy 9215, vuelta: 91, contador: 184
+hola soy 9216, vuelta: 19, contador: 184
+hola soy 9215, vuelta: 92, contador: 185
+hola soy 9216, vuelta: 20, contador: 186
+hola soy 9215, vuelta: 93, contador: 187
+hola soy 9216, vuelta: 21, contador: 188
+hola soy 9215, vuelta: 94, contador: 189
+hola soy 9216, vuelta: 22, contador: 190
+hola soy 9215, vuelta: 95, contador: 191
+hola soy 9216, vuelta: 23, contador: 192
+hola soy 9215, vuelta: 96, contador: 193
+hola soy 9216, vuelta: 24, contador: 194
+hola soy 9215, vuelta: 97, contador: 195
+hola soy 9216, vuelta: 25, contador: 196
+hola soy 9215, vuelta: 98, contador: 197
+hola soy 9216, vuelta: 26, contador: 199
+hola soy 9215, vuelta: 99, contador: 199
+hola soy 9216, vuelta: 27, contador: 200
+hola soy 9216, vuelta: 28, contador: 201
+hola soy 9216, vuelta: 29, contador: 202
+hola soy 9216, vuelta: 30, contador: 203
+hola soy 9216, vuelta: 31, contador: 204
+hola soy 9216, vuelta: 32, contador: 205
+hola soy 9216, vuelta: 33, contador: 206
+hola soy 9216, vuelta: 34, contador: 207
+hola soy 9216, vuelta: 35, contador: 208
+hola soy 9216, vuelta: 36, contador: 209
+hola soy 9216, vuelta: 37, contador: 210
+hola soy 9216, vuelta: 38, contador: 211
+hola soy 9216, vuelta: 39, contador: 212
+hola soy 9216, vuelta: 40, contador: 213
+hola soy 9216, vuelta: 41, contador: 214
+hola soy 9216, vuelta: 42, contador: 215
+hola soy 9216, vuelta: 43, contador: 216
+hola soy 9216, vuelta: 44, contador: 217
+hola soy 9216, vuelta: 45, contador: 218
+hola soy 9216, vuelta: 46, contador: 219
+hola soy 9216, vuelta: 47, contador: 220
+hola soy 9216, vuelta: 48, contador: 221
+hola soy 9216, vuelta: 49, contador: 222
+hola soy 9216, vuelta: 50, contador: 223
+hola soy 9216, vuelta: 51, contador: 224
+hola soy 9216, vuelta: 52, contador: 225
+hola soy 9216, vuelta: 53, contador: 226
+hola soy 9216, vuelta: 54, contador: 227
+hola soy 9216, vuelta: 55, contador: 228
+hola soy 9216, vuelta: 56, contador: 229
+hola soy 9216, vuelta: 57, contador: 230
+hola soy 9216, vuelta: 58, contador: 232
+hola soy 9216, vuelta: 59, contador: 233
+hola soy 9216, vuelta: 60, contador: 234
+hola soy 9216, vuelta: 61, contador: 235
+hola soy 9217, vuelta: 0, contador: 233
+hola soy 9216, vuelta: 62, contador: 236
+hola soy 9216, vuelta: 63, contador: 237
+hola soy 9217, vuelta: 1, contador: 237
+hola soy 9216, vuelta: 64, contador: 238
+hola soy 9217, vuelta: 2, contador: 239
+hola soy 9216, vuelta: 65, contador: 240
+hola soy 9217, vuelta: 3, contador: 241
+hola soy 9216, vuelta: 66, contador: 242
+hola soy 9217, vuelta: 4, contador: 243
+hola soy 9216, vuelta: 67, contador: 244
+hola soy 9217, vuelta: 5, contador: 245
+hola soy 9216, vuelta: 68, contador: 246
+hola soy 9217, vuelta: 6, contador: 247
+hola soy 9216, vuelta: 69, contador: 248
+hola soy 9217, vuelta: 7, contador: 249
+hola soy 9216, vuelta: 70, contador: 250
+hola soy 9217, vuelta: 8, contador: 251
+hola soy 9216, vuelta: 71, contador: 252
+hola soy 9217, vuelta: 9, contador: 253
+hola soy 9216, vuelta: 72, contador: 254
+hola soy 9217, vuelta: 10, contador: 255
+hola soy 9216, vuelta: 73, contador: 256
+hola soy 9217, vuelta: 11, contador: 257
+hola soy 9216, vuelta: 74, contador: 258
+hola soy 9217, vuelta: 12, contador: 259
+hola soy 9216, vuelta: 75, contador: 260
+hola soy 9217, vuelta: 13, contador: 261
+hola soy 9216, vuelta: 76, contador: 261
+hola soy 9217, vuelta: 14, contador: 263
+hola soy 9216, vuelta: 77, contador: 263
+hola soy 9217, vuelta: 15, contador: 265
+hola soy 9216, vuelta: 78, contador: 265
+hola soy 9217, vuelta: 16, contador: 266
+hola soy 9216, vuelta: 79, contador: 267
+hola soy 9217, vuelta: 17, contador: 268
+hola soy 9216, vuelta: 80, contador: 269
+hola soy 9217, vuelta: 18, contador: 271
+hola soy 9216, vuelta: 81, contador: 271
+hola soy 9217, vuelta: 19, contador: 273
+hola soy 9216, vuelta: 82, contador: 273
+hola soy 9217, vuelta: 20, contador: 275
+hola soy 9216, vuelta: 83, contador: 275
+hola soy 9217, vuelta: 21, contador: 277
+hola soy 9216, vuelta: 84, contador: 277
+hola soy 9217, vuelta: 22, contador: 279
+hola soy 9216, vuelta: 85, contador: 279
+hola soy 9217, vuelta: 23, contador: 281
+hola soy 9216, vuelta: 86, contador: 281
+hola soy 9216, vuelta: 87, contador: 282
+hola soy 9217, vuelta: 24, contador: 282
+hola soy 9216, vuelta: 88, contador: 284
+hola soy 9217, vuelta: 25, contador: 284
+hola soy 9216, vuelta: 89, contador: 285
+hola soy 9217, vuelta: 26, contador: 286
+hola soy 9216, vuelta: 90, contador: 287
+hola soy 9217, vuelta: 27, contador: 288
+hola soy 9216, vuelta: 91, contador: 289
+hola soy 9217, vuelta: 28, contador: 290
+hola soy 9216, vuelta: 92, contador: 292
+hola soy 9217, vuelta: 29, contador: 292
+hola soy 9216, vuelta: 93, contador: 293
+hola soy 9217, vuelta: 30, contador: 294
+hola soy 9216, vuelta: 94, contador: 295
+hola soy 9217, vuelta: 31, contador: 296
+hola soy 9216, vuelta: 95, contador: 297
+hola soy 9217, vuelta: 32, contador: 298
+hola soy 9216, vuelta: 96, contador: 299
+hola soy 9217, vuelta: 33, contador: 300
+hola soy 9216, vuelta: 97, contador: 301
+hola soy 9217, vuelta: 34, contador: 302
+hola soy 9216, vuelta: 98, contador: 303
+hola soy 9217, vuelta: 35, contador: 304
+hola soy 9216, vuelta: 99, contador: 305
+hola soy 9217, vuelta: 36, contador: 306
+hola soy 9217, vuelta: 37, contador: 307
+hola soy 9217, vuelta: 38, contador: 308
+hola soy 9217, vuelta: 39, contador: 309
+hola soy 9217, vuelta: 40, contador: 310
+hola soy 9217, vuelta: 41, contador: 311
+hola soy 9217, vuelta: 42, contador: 312
+hola soy 9217, vuelta: 43, contador: 313
+hola soy 9217, vuelta: 44, contador: 314
+hola soy 9217, vuelta: 45, contador: 315
+hola soy 9217, vuelta: 46, contador: 316
+hola soy 9217, vuelta: 47, contador: 317
+hola soy 9217, vuelta: 48, contador: 318
+hola soy 9217, vuelta: 49, contador: 319
+hola soy 9217, vuelta: 50, contador: 320
+hola soy 9217, vuelta: 51, contador: 321
+hola soy 9217, vuelta: 52, contador: 322
+hola soy 9217, vuelta: 53, contador: 323
+hola soy 9217, vuelta: 54, contador: 324
+hola soy 9217, vuelta: 55, contador: 325
+hola soy 9217, vuelta: 56, contador: 326
+hola soy 9217, vuelta: 57, contador: 327
+hola soy 9217, vuelta: 58, contador: 328
+hola soy 9217, vuelta: 59, contador: 329
+hola soy 9217, vuelta: 60, contador: 330
+hola soy 9217, vuelta: 61, contador: 331
+hola soy 9217, vuelta: 62, contador: 332
+hola soy 9217, vuelta: 63, contador: 333
+hola soy 9217, vuelta: 64, contador: 334
+hola soy 9217, vuelta: 65, contador: 335
+hola soy 9217, vuelta: 66, contador: 336
+hola soy 9217, vuelta: 67, contador: 337
+hola soy 9217, vuelta: 68, contador: 338
+hola soy 9217, vuelta: 69, contador: 339
+hola soy 9217, vuelta: 70, contador: 340
+hola soy 9217, vuelta: 71, contador: 341
+hola soy 9217, vuelta: 72, contador: 342
+hola soy 9217, vuelta: 73, contador: 343
+hola soy 9217, vuelta: 74, contador: 344
+hola soy 9217, vuelta: 75, contador: 345
+hola soy 9217, vuelta: 76, contador: 346
+hola soy 9217, vuelta: 77, contador: 347
+hola soy 9217, vuelta: 78, contador: 348
+hola soy 9217, vuelta: 79, contador: 349
+hola soy 9217, vuelta: 80, contador: 350
+hola soy 9217, vuelta: 81, contador: 351
+hola soy 9217, vuelta: 82, contador: 352
+hola soy 9217, vuelta: 83, contador: 353
+hola soy 9217, vuelta: 84, contador: 354
+hola soy 9217, vuelta: 85, contador: 355
+hola soy 9217, vuelta: 86, contador: 356
+hola soy 9217, vuelta: 87, contador: 357
+hola soy 9217, vuelta: 88, contador: 358
+hola soy 9217, vuelta: 89, contador: 359
+hola soy 9217, vuelta: 90, contador: 360
+hola soy 9217, vuelta: 91, contador: 361
+hola soy 9217, vuelta: 92, contador: 362
+hola soy 9217, vuelta: 93, contador: 363
+hola soy 9217, vuelta: 94, contador: 364
+hola soy 9217, vuelta: 95, contador: 365
+hola soy 9217, vuelta: 96, contador: 366
+hola soy 9217, vuelta: 97, contador: 367
+hola soy 9217, vuelta: 98, contador: 368
+hola soy 9217, vuelta: 99, contador: 369
+hola soy 9219, vuelta: 0, contador: 370
+hola soy 9219, vuelta: 1, contador: 371
+hola soy 9219, vuelta: 2, contador: 372
+hola soy 9219, vuelta: 3, contador: 373
+hola soy 9219, vuelta: 4, contador: 374
+hola soy 9219, vuelta: 5, contador: 375
+hola soy 9219, vuelta: 6, contador: 376
+hola soy 9219, vuelta: 7, contador: 377
+hola soy 9219, vuelta: 8, contador: 378
+hola soy 9219, vuelta: 9, contador: 379
+hola soy 9219, vuelta: 10, contador: 380
+hola soy 9219, vuelta: 11, contador: 381
+hola soy 9219, vuelta: 12, contador: 382
+hola soy 9219, vuelta: 13, contador: 383
+hola soy 9219, vuelta: 14, contador: 384
+hola soy 9219, vuelta: 15, contador: 385
+hola soy 9219, vuelta: 16, contador: 386
+hola soy 9219, vuelta: 17, contador: 387
+hola soy 9219, vuelta: 18, contador: 388
+hola soy 9219, vuelta: 19, contador: 389
+hola soy 9219, vuelta: 20, contador: 390
+hola soy 9219, vuelta: 21, contador: 391
+hola soy 9219, vuelta: 22, contador: 392
+hola soy 9219, vuelta: 23, contador: 393
+hola soy 9219, vuelta: 24, contador: 394
+hola soy 9219, vuelta: 25, contador: 395
+hola soy 9219, vuelta: 26, contador: 396
+hola soy 9219, vuelta: 27, contador: 397
+hola soy 9219, vuelta: 28, contador: 398
+hola soy 9219, vuelta: 29, contador: 399
+hola soy 9219, vuelta: 30, contador: 400
+hola soy 9219, vuelta: 31, contador: 401
+hola soy 9219, vuelta: 32, contador: 402
+hola soy 9219, vuelta: 33, contador: 403
+hola soy 9219, vuelta: 34, contador: 404
+hola soy 9219, vuelta: 35, contador: 405
+hola soy 9219, vuelta: 36, contador: 406
+hola soy 9219, vuelta: 37, contador: 407
+hola soy 9219, vuelta: 38, contador: 408
+hola soy 9219, vuelta: 39, contador: 409
+hola soy 9219, vuelta: 40, contador: 410
+hola soy 9219, vuelta: 41, contador: 411
+hola soy 9219, vuelta: 42, contador: 412
+hola soy 9219, vuelta: 43, contador: 413
+hola soy 9219, vuelta: 44, contador: 414
+hola soy 9219, vuelta: 45, contador: 415
+hola soy 9219, vuelta: 46, contador: 416
+hola soy 9219, vuelta: 47, contador: 417
+hola soy 9219, vuelta: 48, contador: 418
+hola soy 9219, vuelta: 49, contador: 419
+hola soy 9219, vuelta: 50, contador: 420
+hola soy 9219, vuelta: 51, contador: 421
+hola soy 9219, vuelta: 52, contador: 422
+hola soy 9219, vuelta: 53, contador: 423
+hola soy 9219, vuelta: 54, contador: 424
+hola soy 9219, vuelta: 55, contador: 425
+hola soy 9219, vuelta: 56, contador: 426
+hola soy 9219, vuelta: 57, contador: 427
+hola soy 9219, vuelta: 58, contador: 428
+hola soy 9219, vuelta: 59, contador: 429
+hola soy 9219, vuelta: 60, contador: 430
+hola soy 9219, vuelta: 61, contador: 431
+hola soy 9219, vuelta: 62, contador: 432
+hola soy 9219, vuelta: 63, contador: 433
+hola soy 9219, vuelta: 64, contador: 434
+hola soy 9219, vuelta: 65, contador: 435
+hola soy 9219, vuelta: 66, contador: 436
+hola soy 9219, vuelta: 67, contador: 437
+hola soy 9219, vuelta: 68, contador: 438
+hola soy 9219, vuelta: 69, contador: 439
+hola soy 9219, vuelta: 70, contador: 440
+hola soy 9219, vuelta: 71, contador: 441
+hola soy 9219, vuelta: 72, contador: 442
+hola soy 9219, vuelta: 73, contador: 443
+hola soy 9219, vuelta: 74, contador: 444
+hola soy 9219, vuelta: 75, contador: 445
+hola soy 9219, vuelta: 76, contador: 446
+hola soy 9219, vuelta: 77, contador: 447
+hola soy 9219, vuelta: 78, contador: 448
+hola soy 9219, vuelta: 79, contador: 449
+hola soy 9219, vuelta: 80, contador: 450
+hola soy 9219, vuelta: 81, contador: 451
+hola soy 9219, vuelta: 82, contador: 452
+hola soy 9219, vuelta: 83, contador: 453
+hola soy 9219, vuelta: 84, contador: 454
+hola soy 9219, vuelta: 85, contador: 455
+hola soy 9219, vuelta: 86, contador: 456
+hola soy 9219, vuelta: 87, contador: 457
+hola soy 9219, vuelta: 88, contador: 458
+hola soy 9219, vuelta: 89, contador: 459
+hola soy 9219, vuelta: 90, contador: 460
+hola soy 9219, vuelta: 91, contador: 461
+hola soy 9219, vuelta: 92, contador: 462
+hola soy 9219, vuelta: 93, contador: 463
+hola soy 9219, vuelta: 94, contador: 464
+hola soy 9219, vuelta: 95, contador: 465
+hola soy 9219, vuelta: 96, contador: 466
+hola soy 9219, vuelta: 97, contador: 467
+hola soy 9219, vuelta: 98, contador: 468
+hola soy 9219, vuelta: 99, contador: 469
+hola soy 9220, vuelta: 0, contador: 471
+hola soy 9218, vuelta: 0, contador: 471
+hola soy 9220, vuelta: 1, contador: 472
+hola soy 9218, vuelta: 1, contador: 473
+hola soy 9220, vuelta: 2, contador: 473
+hola soy 9218, vuelta: 2, contador: 474
+hola soy 9220, vuelta: 3, contador: 475
+hola soy 9218, vuelta: 3, contador: 477
+hola soy 9220, vuelta: 4, contador: 477
+hola soy 9218, vuelta: 4, contador: 479
+hola soy 9220, vuelta: 5, contador: 479
+hola soy 9218, vuelta: 5, contador: 480
+hola soy 9220, vuelta: 6, contador: 480
+hola soy 9218, vuelta: 6, contador: 482
+hola soy 9220, vuelta: 7, contador: 482
+hola soy 9218, vuelta: 7, contador: 484
+hola soy 9220, vuelta: 8, contador: 484
+hola soy 9218, vuelta: 8, contador: 486
+hola soy 9220, vuelta: 9, contador: 486
+hola soy 9218, vuelta: 9, contador: 488
+hola soy 9220, vuelta: 10, contador: 488
+hola soy 9218, vuelta: 10, contador: 490
+hola soy 9220, vuelta: 11, contador: 490
+hola soy 9218, vuelta: 11, contador: 492
+hola soy 9220, vuelta: 12, contador: 492
+hola soy 9218, vuelta: 12, contador: 494
+hola soy 9220, vuelta: 13, contador: 494
+hola soy 9218, vuelta: 13, contador: 496
+hola soy 9220, vuelta: 14, contador: 496
+hola soy 9218, vuelta: 14, contador: 497
+hola soy 9220, vuelta: 15, contador: 498
+hola soy 9218, vuelta: 15, contador: 500
+hola soy 9220, vuelta: 16, contador: 500
+hola soy 9218, vuelta: 16, contador: 502
+hola soy 9220, vuelta: 17, contador: 502
+hola soy 9218, vuelta: 17, contador: 504
+hola soy 9220, vuelta: 18, contador: 504
+hola soy 9218, vuelta: 18, contador: 506
+hola soy 9220, vuelta: 19, contador: 506
+hola soy 9218, vuelta: 19, contador: 507
+hola soy 9220, vuelta: 20, contador: 508
+hola soy 9218, vuelta: 20, contador: 509
+hola soy 9220, vuelta: 21, contador: 510
+hola soy 9218, vuelta: 21, contador: 512
+hola soy 9220, vuelta: 22, contador: 514
+hola soy 9218, vuelta: 22, contador: 514
+hola soy 9220, vuelta: 23, contador: 516
+hola soy 9218, vuelta: 23, contador: 516
+hola soy 9221, vuelta: 0, contador: 513
+hola soy 9220, vuelta: 24, contador: 518
+hola soy 9218, vuelta: 24, contador: 518
+hola soy 9221, vuelta: 1, contador: 520
+hola soy 9220, vuelta: 25, contador: 521
+hola soy 9218, vuelta: 25, contador: 521
+hola soy 9221, vuelta: 2, contador: 523
+hola soy 9220, vuelta: 26, contador: 524
+hola soy 9218, vuelta: 26, contador: 524
+hola soy 9221, vuelta: 3, contador: 526
+hola soy 9220, vuelta: 27, contador: 527
+hola soy 9218, vuelta: 27, contador: 527
+hola soy 9221, vuelta: 4, contador: 529
+hola soy 9220, vuelta: 28, contador: 529
+hola soy 9218, vuelta: 28, contador: 530
+hola soy 9221, vuelta: 5, contador: 532
+hola soy 9220, vuelta: 29, contador: 533
+hola soy 9218, vuelta: 29, contador: 533
+hola soy 9221, vuelta: 6, contador: 534
+hola soy 9220, vuelta: 30, contador: 535
+hola soy 9218, vuelta: 30, contador: 535
+hola soy 9221, vuelta: 7, contador: 537
+hola soy 9220, vuelta: 31, contador: 538
+hola soy 9218, vuelta: 31, contador: 538
+hola soy 9221, vuelta: 8, contador: 540
+hola soy 9220, vuelta: 32, contador: 540
+hola soy 9218, vuelta: 32, contador: 541
+hola soy 9221, vuelta: 9, contador: 542
+hola soy 9218, vuelta: 33, contador: 543
+hola soy 9220, vuelta: 33, contador: 543
+hola soy 9221, vuelta: 10, contador: 544
+hola soy 9218, vuelta: 34, contador: 546
+hola soy 9220, vuelta: 34, contador: 546
+hola soy 9221, vuelta: 11, contador: 548
+hola soy 9218, vuelta: 35, contador: 548
+hola soy 9220, vuelta: 35, contador: 549
+hola soy 9221, vuelta: 12, contador: 550
+hola soy 9218, vuelta: 36, contador: 552
+hola soy 9220, vuelta: 36, contador: 552
+hola soy 9221, vuelta: 13, contador: 554
+hola soy 9218, vuelta: 37, contador: 555
+hola soy 9221, vuelta: 14, contador: 556
+hola soy 9220, vuelta: 37, contador: 555
+hola soy 9218, vuelta: 38, contador: 557
+hola soy 9221, vuelta: 15, contador: 558
+hola soy 9218, vuelta: 39, contador: 560
+hola soy 9221, vuelta: 16, contador: 560
+hola soy 9220, vuelta: 38, contador: 560
+hola soy 9218, vuelta: 40, contador: 562
+hola soy 9221, vuelta: 17, contador: 563
+hola soy 9220, vuelta: 39, contador: 563
+hola soy 9218, vuelta: 41, contador: 564
+hola soy 9221, vuelta: 18, contador: 565
+hola soy 9220, vuelta: 40, contador: 565
+hola soy 9218, vuelta: 42, contador: 566
+hola soy 9221, vuelta: 19, contador: 567
+hola soy 9220, vuelta: 41, contador: 569
+hola soy 9218, vuelta: 43, contador: 569
+hola soy 9221, vuelta: 20, contador: 571
+hola soy 9220, vuelta: 42, contador: 571
+hola soy 9218, vuelta: 44, contador: 572
+hola soy 9221, vuelta: 21, contador: 574
+hola soy 9220, vuelta: 43, contador: 574
+hola soy 9218, vuelta: 45, contador: 575
+hola soy 9221, vuelta: 22, contador: 576
+hola soy 9220, vuelta: 44, contador: 577
+hola soy 9218, vuelta: 46, contador: 578
+hola soy 9221, vuelta: 23, contador: 580
+hola soy 9220, vuelta: 45, contador: 580
+hola soy 9218, vuelta: 47, contador: 581
+hola soy 9221, vuelta: 24, contador: 583
+hola soy 9220, vuelta: 46, contador: 583
+hola soy 9218, vuelta: 48, contador: 584
+hola soy 9221, vuelta: 25, contador: 586
+hola soy 9220, vuelta: 47, contador: 586
+hola soy 9218, vuelta: 49, contador: 588
+hola soy 9221, vuelta: 26, contador: 588
+hola soy 9220, vuelta: 48, contador: 589
+hola soy 9218, vuelta: 50, contador: 591
+hola soy 9221, vuelta: 27, contador: 592
+hola soy 9220, vuelta: 49, contador: 592
+hola soy 9218, vuelta: 51, contador: 593
+hola soy 9221, vuelta: 28, contador: 594
+hola soy 9220, vuelta: 50, contador: 594
+hola soy 9218, vuelta: 52, contador: 596
+hola soy 9220, vuelta: 51, contador: 596
+hola soy 9221, vuelta: 29, contador: 596
+hola soy 9218, vuelta: 53, contador: 598
+hola soy 9220, vuelta: 52, contador: 598
+hola soy 9221, vuelta: 30, contador: 599
+hola soy 9218, vuelta: 54, contador: 601
+hola soy 9220, vuelta: 53, contador: 601
+hola soy 9221, vuelta: 31, contador: 602
+hola soy 9218, vuelta: 55, contador: 603
+hola soy 9220, vuelta: 54, contador: 604
+hola soy 9221, vuelta: 32, contador: 605
+hola soy 9218, vuelta: 56, contador: 606
+hola soy 9220, vuelta: 55, contador: 607
+hola soy 9221, vuelta: 33, contador: 609
+hola soy 9218, vuelta: 57, contador: 610
+hola soy 9220, vuelta: 56, contador: 610
+hola soy 9221, vuelta: 34, contador: 612
+hola soy 9218, vuelta: 58, contador: 613
+hola soy 9220, vuelta: 57, contador: 613
+hola soy 9221, vuelta: 35, contador: 614
+hola soy 9218, vuelta: 59, contador: 614
+hola soy 9220, vuelta: 58, contador: 615
+hola soy 9221, vuelta: 36, contador: 616
+hola soy 9218, vuelta: 60, contador: 617
+hola soy 9220, vuelta: 59, contador: 618
+hola soy 9221, vuelta: 37, contador: 620
+hola soy 9218, vuelta: 61, contador: 620
+hola soy 9220, vuelta: 60, contador: 621
+hola soy 9221, vuelta: 38, contador: 623
+hola soy 9218, vuelta: 62, contador: 623
+hola soy 9220, vuelta: 61, contador: 625
+hola soy 9221, vuelta: 39, contador: 625
+hola soy 9218, vuelta: 63, contador: 626
+hola soy 9220, vuelta: 62, contador: 627
+hola soy 9221, vuelta: 40, contador: 628
+hola soy 9221, vuelta: 41, contador: 631
+hola soy 9218, vuelta: 64, contador: 630
+hola soy 9221, vuelta: 42, contador: 632
+hola soy 9220, vuelta: 63, contador: 630
+hola soy 9218, vuelta: 65, contador: 634
+hola soy 9221, vuelta: 43, contador: 634
+hola soy 9220, vuelta: 64, contador: 637
+hola soy 9218, vuelta: 66, contador: 637
+hola soy 9221, vuelta: 44, contador: 637
+hola soy 9220, vuelta: 65, contador: 639
+hola soy 9218, vuelta: 67, contador: 640
+hola soy 9221, vuelta: 45, contador: 640
+hola soy 9220, vuelta: 66, contador: 641
+hola soy 9218, vuelta: 68, contador: 642
+hola soy 9221, vuelta: 46, contador: 643
+hola soy 9220, vuelta: 67, contador: 644
+hola soy 9218, vuelta: 69, contador: 645
+hola soy 9221, vuelta: 47, contador: 645
+hola soy 9220, vuelta: 68, contador: 646
+hola soy 9218, vuelta: 70, contador: 648
+hola soy 9221, vuelta: 48, contador: 649
+hola soy 9220, vuelta: 69, contador: 649
+hola soy 9218, vuelta: 71, contador: 650
+hola soy 9220, vuelta: 70, contador: 651
+hola soy 9221, vuelta: 49, contador: 651
+hola soy 9218, vuelta: 72, contador: 652
+hola soy 9220, vuelta: 71, contador: 654
+hola soy 9221, vuelta: 50, contador: 654
+hola soy 9218, vuelta: 73, contador: 654
+hola soy 9220, vuelta: 72, contador: 656
+hola soy 9221, vuelta: 51, contador: 656
+hola soy 9218, vuelta: 74, contador: 656
+hola soy 9220, vuelta: 73, contador: 657
+hola soy 9221, vuelta: 52, contador: 658
+hola soy 9218, vuelta: 75, contador: 659
+hola soy 9220, vuelta: 74, contador: 660
+hola soy 9221, vuelta: 53, contador: 661
+hola soy 9218, vuelta: 76, contador: 662
+hola soy 9220, vuelta: 75, contador: 664
+hola soy 9221, vuelta: 54, contador: 664
+hola soy 9218, vuelta: 77, contador: 665
+hola soy 9220, vuelta: 76, contador: 667
+hola soy 9221, vuelta: 55, contador: 667
+hola soy 9218, vuelta: 78, contador: 668
+hola soy 9220, vuelta: 77, contador: 670
+hola soy 9221, vuelta: 56, contador: 670
+hola soy 9218, vuelta: 79, contador: 671
+hola soy 9220, vuelta: 78, contador: 673
+hola soy 9221, vuelta: 57, contador: 673
+hola soy 9218, vuelta: 80, contador: 674
+hola soy 9220, vuelta: 79, contador: 676
+hola soy 9218, vuelta: 81, contador: 676
+hola soy 9221, vuelta: 58, contador: 676
+hola soy 9220, vuelta: 80, contador: 678
+hola soy 9218, vuelta: 82, contador: 678
+hola soy 9221, vuelta: 59, contador: 678
+hola soy 9220, vuelta: 81, contador: 680
+hola soy 9218, vuelta: 83, contador: 680
+hola soy 9221, vuelta: 60, contador: 680
+hola soy 9220, vuelta: 82, contador: 682
+hola soy 9218, vuelta: 84, contador: 682
+hola soy 9221, vuelta: 61, contador: 682
+hola soy 9218, vuelta: 85, contador: 683
+hola soy 9221, vuelta: 62, contador: 683
+hola soy 9220, vuelta: 83, contador: 683
+hola soy 9218, vuelta: 86, contador: 685
+hola soy 9221, vuelta: 63, contador: 685
+hola soy 9220, vuelta: 84, contador: 686
+hola soy 9218, vuelta: 87, contador: 687
+hola soy 9221, vuelta: 64, contador: 687
+hola soy 9220, vuelta: 85, contador: 688
+hola soy 9218, vuelta: 88, contador: 690
+hola soy 9221, vuelta: 65, contador: 690
+hola soy 9220, vuelta: 86, contador: 691
+hola soy 9218, vuelta: 89, contador: 692
+hola soy 9220, vuelta: 87, contador: 693
+hola soy 9221, vuelta: 66, contador: 693
+hola soy 9218, vuelta: 90, contador: 694
+hola soy 9220, vuelta: 88, contador: 696
+hola soy 9221, vuelta: 67, contador: 696
+hola soy 9218, vuelta: 91, contador: 697
+hola soy 9220, vuelta: 89, contador: 698
+hola soy 9221, vuelta: 68, contador: 699
+hola soy 9218, vuelta: 92, contador: 700
+hola soy 9220, vuelta: 90, contador: 702
+hola soy 9221, vuelta: 69, contador: 702
+hola soy 9218, vuelta: 93, contador: 703
+hola soy 9220, vuelta: 91, contador: 705
+hola soy 9221, vuelta: 70, contador: 705
+hola soy 9218, vuelta: 94, contador: 706
+hola soy 9220, vuelta: 92, contador: 708
+hola soy 9221, vuelta: 71, contador: 708
+hola soy 9218, vuelta: 95, contador: 709
+hola soy 9220, vuelta: 93, contador: 711
+hola soy 9221, vuelta: 72, contador: 711
+hola soy 9218, vuelta: 96, contador: 712
+hola soy 9220, vuelta: 94, contador: 714
+hola soy 9221, vuelta: 73, contador: 715
+hola soy 9218, vuelta: 97, contador: 715
+hola soy 9220, vuelta: 95, contador: 716
+hola soy 9221, vuelta: 74, contador: 717
+hola soy 9218, vuelta: 98, contador: 717
+hola soy 9220, vuelta: 96, contador: 718
+hola soy 9221, vuelta: 75, contador: 719
+hola soy 9218, vuelta: 99, contador: 721
+hola soy 9220, vuelta: 97, contador: 722
+hola soy 9221, vuelta: 76, contador: 722
+hola soy 9220, vuelta: 98, contador: 724
+hola soy 9221, vuelta: 77, contador: 724
+hola soy 9220, vuelta: 99, contador: 725
+hola soy 9221, vuelta: 78, contador: 726
+hola soy 9221, vuelta: 79, contador: 727
+hola soy 9221, vuelta: 80, contador: 728
+hola soy 9221, vuelta: 81, contador: 729
+hola soy 9221, vuelta: 82, contador: 730
+hola soy 9221, vuelta: 83, contador: 731
+hola soy 9221, vuelta: 84, contador: 732
+hola soy 9221, vuelta: 85, contador: 733
+hola soy 9221, vuelta: 86, contador: 734
+hola soy 9221, vuelta: 87, contador: 735
+hola soy 9221, vuelta: 88, contador: 736
+hola soy 9221, vuelta: 89, contador: 737
+hola soy 9221, vuelta: 90, contador: 738
+hola soy 9221, vuelta: 91, contador: 739
+hola soy 9221, vuelta: 92, contador: 740
+hola soy 9221, vuelta: 93, contador: 741
+hola soy 9221, vuelta: 94, contador: 742
+hola soy 9221, vuelta: 95, contador: 743
+hola soy 9221, vuelta: 96, contador: 744
+hola soy 9221, vuelta: 97, contador: 745
+hola soy 9221, vuelta: 98, contador: 746
+hola soy 9221, vuelta: 99, contador: 747
+adios
+Valor final del contador 747
+fin
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git push origin master
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git push origin master
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git init.
+git: 'init.'no es un comando de git. Mira 'git --help'.
+
+El comando más similar es
+	init
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git init. .
+Inicializado repositorio Git vacío en /home/juan/practica1/.git/
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git init .[1P.[K[K[K[K[K[K[K[K[Kgit commit -m "inicio"
+
+*** Por favor cuéntame quien eres.
+
+Corre
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Tu Nombre"
+
+para configurar la identidad por defecto de tu cuenta.
+Omite --global para configurar tu identidad solo en este repositorio.
+
+fatal: no es posible auto-detectar la dirección de correo (se obtuvo 'juan@juan-HP-ProBook-450-G8-Notebook-PC.(none)')
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git config --global user.name ""J"u"a"n"d"a"
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git config --global user.name "Juanda"[16Pmmit -m "inicio"
+
+*** Por favor cuéntame quien eres.
+
+Corre
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Tu Nombre"
+
+para configurar la identidad por defecto de tu cuenta.
+Omite --global para configurar tu identidad solo en este repositorio.
+
+fatal: no es posible auto-detectar la dirección de correo (se obtuvo 'juan@juan-HP-ProBook-450-G8-Notebook-PC.(none)')
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git commit -m "inicio"nfig --global user.name "Juanda"[1P "Juanda"[1P "Juanda"[1P "Juanda"[1P "Juanda"e "Juanda"m "Juanda"a "Juanda"i "Juanda"l "Juanda"[C[C[C[1Puanda"juanda"[C[C[C[C[Cv"r"@"u"c"m"."e"s" [A]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git config --global user.email "juandavr@ucm.es" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pmmit -m "inicio"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+En la rama master
+
+Confirmación inicial
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	[31mGitMultiprocesing/[m
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git add o_p[K[K[K0_procesos.py
+fatal: ruta especificada '0_procesos.py' no concordó con ninguna carpeta
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ cd
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~[00m$ cd /practica1
+bash: cd: /practica1: No existe el archivo o el directorio
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~[00m$ cd practica1
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ cd GitMultiprocessing
+bash: cd: GitMultiprocessing: No existe el archivo o el directorio
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ cd GitMultiprocessing[9Ppractica1/practica1[Kgit add 0_procesos.py
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git add 0_procesos.py[1P_procesos.py1_procesos.py
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git add 1_procesos.py[1P_procesos.py2_procesos.py
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git add 2_procesos.py[1P_procesos.py3_procesos.py
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git add 3_procesos.py[C[1P_procesos.py4_procesos.py
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git add 4_procesos.py3_procesos.py2_procesos.py1_procesos.py0_procesos.pycd GitMultiprocessing[9Ppractica1/practica1[Kgit add 0_procesos.pycommit -m "inicio"
+[master (commit-raíz) d392cf7] inicio
+ 5 files changed, 106 insertions(+)
+ create mode 100644 0_procesos.py
+ create mode 100644 1_procesos.py
+ create mode 100644 2_procesos.py
+ create mode 100644 3_procesos.py
+ create mode 100644 4_procesos.py
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git pull
+No hay información de rastreo para la rama actual.
+Por favor especifica a qué rama quieres fusionar.
+Ver git-pull(1) para detalles.
+
+    git pull <remoto> <rama>
+
+Si deseas configurar el rastreo de información para esta rama, puedes hacerlo con:
+
+    git branch --set-upstream-to=<remoto>/<rama> master
+
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git pullcommit -m "inicio"[1Padd 4_procesos.py3_procesos.py2_procesos.py1_procesos.py0_procesos.pycd GitMultiprocessing[9Ppractica1/practica1[Kgit add 0_procesos.pycommit -m "inicio"nfig --global user.email "juandavr@ucm.es" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pmmit -m "inicio"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnfig --global user.name "Juanda"[16Pmmit -m "inicio"[12Pinit .[1P.push origin master[1Ppython3 4_procesos.pygit push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrate que tienes los permisos de acceso correctos
+y que el repositorio existe.
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git push origin masterll[K
+No hay información de rastreo para la rama actual.
+Por favor especifica a qué rama quieres fusionar.
+Ver git-pull(1) para detalles.
+
+    git pull <remoto> <rama>
+
+Si deseas configurar el rastreo de información para esta rama, puedes hacerlo con:
+
+    git branch --set-upstream-to=<remoto>/<rama> master
+
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git pullsh origin masterll[Kcommit -m "inicio"[1Padd 4_procesos.py3_procesos.py2_procesos.py1_procesos.py0_procesos.py[K[K[K[K[K[K[K[K[K[K[K[K[K[K .
+warning: agregando repositorio embebido: GitMultiprocesing
+[33mayuda: You've added another git repository inside your current repository.[m
+[33mayuda: Clones of the outer repository will not contain the contents of[m
+[33mayuda: the embedded repository and will not know how to obtain it.[m
+[33mayuda: If you meant to add a submodule, use:[m
+[33mayuda: [m
+[33mayuda: 	git submodule add <url> GitMultiprocesing[m
+[33mayuda: [m
+[33mayuda: If you added this path by mistake, you can remove it from the[m
+[33mayuda: index with:[m
+[33mayuda: [m
+[33mayuda: 	git rm --cached GitMultiprocesing[m
+[33mayuda: [m
+[33mayuda: See "git help submodule" for more information.[m
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git status
+En la rama master
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	[32mnuevo archivo:  GitMultiprocesing[m
+
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git status[1Padd .[1Ppullsh origin masterll[Kadd .status[Kgit status[1Padd .[1Ppulladd .
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git add .status[1Padd .status
+En la rama master
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	[32mborrado:        0_procesos.py[m
+	[32mborrado:        1_procesos.py[m
+	[32mborrado:        2_procesos.py[m
+	[32mborrado:        3_procesos.py[m
+	[32mborrado:        4_procesos.py[m
+	[32mnuevo archivo:  GitMultiprocesing[m
+
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git status[1Padd .status[1Padd .status[1Padd .[K[K[K[K[Kpull
+No hay información de rastreo para la rama actual.
+Por favor especifica a qué rama quieres fusionar.
+Ver git-pull(1) para detalles.
+
+    git pull <remoto> <rama>
+
+Si deseas configurar el rastreo de información para esta rama, puedes hacerlo con:
+
+    git branch --set-upstream-to=<remoto>/<rama> master
+
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git pull[K[Ksh
+fatal: No se ha configurado un destino para el push.
+Puedes o especificar una URL desde la línea de comandos o configurar un repositorio remoto usando
+
+    git remote add <nombre> <url>
+
+y luego haciendo push al nombre del remoto
+
+    git push <nombre>
+
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git pushllstatus[1Padd .status[1Padd .[1Ppullsh origin masterll[Ksh origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrate que tienes los permisos de acceso correctos
+y que el repositorio existe.
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git push origin master[Kllstatus[1Padd .status[1Padd .
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git add .push origin master[Kllstatus[1Padd .status[1Padd .status[K[K[K[K[K[Kcommit ""-""m"" ""[Cc"a"m"b"i"o"s"
+[master 3bef06e] cambios
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 160000 GitMultiprocesing
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git commit -m "cambios"add .[K[K[K[K[K[Kpush
+fatal: No se ha configurado un destino para el push.
+Puedes o especificar una URL desde la línea de comandos o configurar un repositorio remoto usando
+
+    git remote add <nombre> <url>
+
+y luego haciendo push al nombre del remoto
+
+    git push <nombre>
+
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git log
+[?1h=[33mcommit 3bef06e3ad669ef99f4c820c7902895e51f4cc68[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Juanda <juandavr@ucm.es>[m
+Date:   Thu Feb 3 11:50:33 2022 +0100[m
+[m
+    cambios[m
+[m
+[33mcommit d392cf79633f856c1865d7f523e5fbc27e69f293[m[m
+Author: Juanda <juandavr@ucm.es>[m
+Date:   Thu Feb 3 11:31:09 2022 +0100[m
+[m
+    inicio[m
+[K[?1l>]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git remote -v
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ [K]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ git remote -v[6Plogpushcommit -m "cambios"add .[Kpush origin masteradd .[Kcommit -m "cambios"push[K[K[K[K[K[K[K[K[Kcd MultiprocesingGitMultiprocesingltiprocesing[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K
+bash: cd: MuGitMultiprocesing: No existe el archivo o el directorio
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1[00m$ cd MuGitMultiprocesing[1PGitMultiprocesing[1PGitMultiprocesing
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1/GitMultiprocesing[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1/GitMultiprocesing[00m$ cd GitMultiprocesingMuGitMultiprocesing[9Pgit remote -v[6Plogpushcommit -m "cambios"add .[K
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1/GitMultiprocesing[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1/GitMultiprocesing[00m$ git add .cd GitMultiprocesingMuGitMultiprocesing[9Pgit remote -v[6Plogpushcommit -m "cambios"
+[main 4cc5ed4] cambios
+ 5 files changed, 106 insertions(+)
+ create mode 100644 0_procesos.py
+ create mode 100644 1_procesos.py
+ create mode 100644 2_procesos.py
+ create mode 100644 3_procesos.py
+ create mode 100644 4_procesos.py
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1/GitMultiprocesing[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1/GitMultiprocesing[00m$ git commit -m "cambios"add .[Kcd GitMultiprocesingMuGitMultiprocesing[9Pgit remote -v[6Plogpushcommit -m "cambios"push[K
+Enumerando objetos: 8, listo.
+Contando objetos:  12% (1/8)Contando objetos:  25% (2/8)Contando objetos:  37% (3/8)Contando objetos:  50% (4/8)Contando objetos:  62% (5/8)Contando objetos:  75% (6/8)Contando objetos:  87% (7/8)Contando objetos: 100% (8/8)Contando objetos: 100% (8/8), listo.
+Compresión delta usando hasta 8 hilos
+Comprimiendo objetos:  14% (1/7)Comprimiendo objetos:  28% (2/7)Comprimiendo objetos:  42% (3/7)Comprimiendo objetos:  57% (4/7)Comprimiendo objetos:  71% (5/7)Comprimiendo objetos:  85% (6/7)Comprimiendo objetos: 100% (7/7)Comprimiendo objetos: 100% (7/7), listo.
+Escribiendo objetos:  14% (1/7)Escribiendo objetos:  28% (2/7)Escribiendo objetos:  42% (3/7)Escribiendo objetos:  71% (5/7)Escribiendo objetos: 100% (7/7)Escribiendo objetos: 100% (7/7), 1.43 KiB | 1.43 MiB/s, listo.
+Total 7 (delta 2), reusado 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), done.[K
+To github.com:Juanda127/GitMultiprocesing.git
+   9c4d04b..4cc5ed4  main -> main
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/practica1/GitMultiprocesing[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/practica1/GitMultiprocesing[00m$ exit
+
+Script done on 2022-02-03 13:21:18+01:00 [COMMAND_EXIT_CODE="0"]
